@@ -19,6 +19,7 @@
     "redux": "^4.0.1"
   },
   "scripts": {
+    "clean": "rm -fr build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "deploy:ci": "node bin/gh-pages.js",
