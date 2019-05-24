@@ -7,7 +7,7 @@ class Nav extends Component {
       <nav>
         <ul>
           <a href="https://status.im/" target="_blank" rel="noopener noreferrer">
-            <li><img src={require('../images/logo.png')} className="center-with-margin"/></li>
+            <li><img src={require('../images/logo.png')} className="center-with-margin" alt="Status Logo"/></li>
           </a>
         </ul>
         <ul>
