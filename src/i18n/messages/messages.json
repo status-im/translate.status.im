@@ -1,0 +1,187 @@
+[
+  {
+    "id": "form.contact",
+    "defaultMessage": "if you have any further questions, feel free to contact us",
+    "filepath": "src/components/form.js"
+  },
+  {
+    "id": "form.name",
+    "defaultMessage": "name",
+    "filepath": "src/components/form.js"
+  },
+  {
+    "id": "form.email",
+    "defaultMessage": "email",
+    "filepath": "src/components/form.js"
+  },
+  {
+    "id": "form.message",
+    "defaultMessage": "message",
+    "filepath": "src/components/form.js"
+  },
+  {
+    "id": "form.feedback",
+    "defaultMessage": "Your feedback is always welcome! Thank you very much",
+    "filepath": "src/components/form.js"
+  },
+  {
+    "id": "header.main-1",
+    "defaultMessage": "Translate Status",
+    "filepath": "src/components/header.js"
+  },
+  {
+    "id": "header.main-2",
+    "defaultMessage": "into Your Language",
+    "filepath": "src/components/header.js"
+  },
+  {
+    "id": "header.status",
+    "defaultMessage": "Status",
+    "filepath": "src/components/header.js"
+  },
+  {
+    "id": "header.status-explanation-1",
+    "defaultMessage": "is completely open source and made by contributors all over the world.",
+    "filepath": "src/components/header.js"
+  },
+  {
+    "id": "header.status-explanation-2",
+    "defaultMessage": "Your translations can help more people utilize this secure, censorship-resistant service",
+    "filepath": "src/components/header.js"
+  },
+  {
+    "id": "main.language",
+    "defaultMessage": "Languages to Translate",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.korean",
+    "defaultMessage": "Korean",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.application",
+    "defaultMessage": "Application",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.chinese",
+    "defaultMessage": "Chinese",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.russian",
+    "defaultMessage": "Russian",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.spanish",
+    "defaultMessage": "Spanish",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.spanish-latin",
+    "defaultMessage": "Spanish (Latin America)",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.portuguese",
+    "defaultMessage": "Portuguese",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.how-to-contribute",
+    "defaultMessage": "How to Contribute?",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.app-and-website",
+    "defaultMessage": "App and Website",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.before-lokalise",
+    "defaultMessage": "You can translate the Status app and website into your language with",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.lokalise",
+    "defaultMessage": "Lokalise!",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.after-lokalise",
+    "defaultMessage": "Lokalise automates all the translation workflow and is very easy to use. What you have to do is to translate sentences into your language with the help of online translators. You can find an example below.",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.step1",
+    "defaultMessage": "Step 1 :",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.fillout",
+    "defaultMessage": "Fill out whatever form(Status app, Website, or both) you want above and you will be invited to Lokalise as a translator. When you sign in, you can find a screen with your language like this",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.step2",
+    "defaultMessage": "Step 2 :",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.find",
+    "defaultMessage": "You can find the words and sentences which are used on the Status app and website. Just translate it into your language with the helpers like Google Translate!",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.finished",
+    "defaultMessage": "That's all! Your contribution helps more people use this secure, censorship-resistant communication platform.",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.documentation",
+    "defaultMessage": "Documentation",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.documentation-explanation",
+    "defaultMessage": "We will refresh our documentation soon. Stay tunded and we will let you know when we are ready! You can see how our documentation's .md files look like",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.doc-example",
+    "defaultMessage": "here",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.contact",
+    "defaultMessage": "Contact Us",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.contact-explanation",
+    "defaultMessage": "if you have any further questions, feel free to contact us",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.public-chat",
+    "defaultMessage": "#Status-translate Public chat",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "nav.home",
+    "defaultMessage": "Home",
+    "filepath": "src/components/nav.js"
+  },
+  {
+    "id": "nav.github",
+    "defaultMessage": "Github",
+    "filepath": "src/components/nav.js"
+  },
+  {
+    "id": "nav.blog",
+    "defaultMessage": "Blog",
+    "filepath": "src/components/nav.js"
+  }
+]
