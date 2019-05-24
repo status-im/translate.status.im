@@ -13,6 +13,7 @@ pipeline {
   environment {
     DEV_HOST = 'jenkins@node-01.do-ams3.proxy.misc.statusim.net'
     DEV_OPTS = '-e "ssh -o StrictHostKeyChecking=no"'
+    DEV_SITE = 'dev-translate'
     GH_USER = 'status-im-auto'
     GH_MAIL = 'auto@status.im'
     GH_REPO = 'translate.status.im'
@@ -65,7 +66,7 @@ pipeline {
       when { expression { !GIT_BRANCH.endsWith('master') } }
       steps { script {
         sshagent(credentials: ['jenkins-ssh']) {
-          sh "rsync ${DEV_OPTS} -r --delete build/. ${DEV_HOST}:/var/www/dev/"
+          sh "rsync ${DEV_OPTS} -r --delete build/. ${DEV_HOST}:/var/www/${DEV_SITE}/"
         }
       } }
     }
