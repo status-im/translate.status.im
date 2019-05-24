@@ -22,7 +22,7 @@ class Form extends Component {
   async handleSubmit(e) {
     e.preventDefault()
     const { name, email, message } = this.state;
-    const form = await Axios.post('api/form', {
+    Axios.post('api/form', {
       name,
       email,
       message
