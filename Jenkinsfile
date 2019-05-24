@@ -17,8 +17,6 @@ pipeline {
     GH_USER = 'status-im-auto'
     GH_MAIL = 'auto@status.im'
     GH_REPO = 'translate.status.im'
-    /* This assumes the NODE_ENV parameter is defined in the job */
-    ENV = "${params.ENV}"
   }
 
   stages {
