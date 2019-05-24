@@ -2,7 +2,7 @@
   "name": "translate.status.im",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/status-im/translate.status.im",
+  "homepage": "https://translate.status.im",
   "dependencies": {
     "@lokalise/node-api": "0.0.8",
     "express": "^4.16.4",
