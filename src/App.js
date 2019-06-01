@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from "./components/nav";
 import Header from "./components/header";
 import Main from "./components/main";
+import Tutorial from "./components/tutorial";
 import Footer from "./components/footer";
 import { addLocaleData, IntlProvider } from 'react-intl';
 import enLocaleData from 'react-intl/locale-data/en';
@@ -27,6 +28,9 @@ class App extends Component {
           </IntlProvider>          
           <IntlProvider locale={locale} messages={messages}>
             <Main />
+          </IntlProvider>
+          <IntlProvider locale={locale} messages={messages}>
+            <Tutorial />
           </IntlProvider>
           <IntlProvider locale={locale} messages={messages}>
             <Footer />

@@ -60,8 +60,13 @@
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.application",
-    "defaultMessage": "Application",
+    "id": "main.app-application",
+    "defaultMessage": "App Translation",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.website-application",
+    "defaultMessage": "Website Translation",
     "filepath": "src/components/main.js"
   },
   {
@@ -111,7 +116,7 @@
   },
   {
     "id": "main.after-lokalise",
-    "defaultMessage": "Lokalise automates all the translation workflow and is very easy to use. What you have to do is to translate sentences into your language with the help of online translators. You can find an example below.",
+    "defaultMessage": "Lokalise automates all the translation workflow and is very easy to use. You can find the simple 3 steps to start the translation as below.",
     "filepath": "src/components/main.js"
   },
   {
@@ -120,8 +125,8 @@
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.fillout",
-    "defaultMessage": "Fill out whatever form(Status app, Website, or both) you want above and you will be invited to Lokalise as a translator. When you sign in, you can find a screen with your language like this",
+    "id": "main.step1-1",
+    "defaultMessage": "Click on the 'apply' button above and sign up for Lokalise, which takes less than 1 minute.",
     "filepath": "src/components/main.js"
   },
   {
@@ -130,13 +135,23 @@
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.find",
-    "defaultMessage": "You can find the words and sentences which are used on the Status app and website. Just translate it into your language with the helpers like Google Translate!",
+    "id": "main.step2-1",
+    "defaultMessage": "You will find the project you applied for. Check out the progress and click the language you would like to translate.",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.step3",
+    "defaultMessage": "Step 3 :",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.step3-1",
+    "defaultMessage": "There are words and sentences which are used on the Status app and website. Lokalise offers useful online translators(e.g. Google Translate, Microsoft Translator, and Yandex.Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Just start the translation!",
     "filepath": "src/components/main.js"
   },
   {
     "id": "main.finished",
-    "defaultMessage": "That's all! Your contribution helps more people use this secure, censorship-resistant communication platform.",
+    "defaultMessage": "That's all! Your passion for the private, secure and censorship-resistant communications will help build a better world that everyone can say what they want to say with Status.",
     "filepath": "src/components/main.js"
   },
   {
