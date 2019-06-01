@@ -4,3 +4,5 @@ yarn.lock
 *.map
 package-lock.json
 build/*
+.DS_Store
+
