@@ -63,17 +63,20 @@ class Main extends Component {
             <div>
               <div className="margin-bottom-40">
                   <p><FormattedMessage id="main.before-lokalise" defaultMessage="You can translate the Status app and website into your language with" /> <a href="https://lokalise.co/" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.lokalise" defaultMessage="Lokalise! " /></a>
-                  <FormattedMessage id="main.after-lokalise" defaultMessage="Lokalise automates all the translation workflow and is very easy to use. You can find the simple 2 steps to start the translation as below." /></p>
+                  <FormattedMessage id="main.after-lokalise" defaultMessage="Lokalise automates all the translation workflow and is very easy to use. You can find the simple 3 steps to start the translation as below." /></p>
               </div>
               <div className="margin-bottom-40">
-                <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.fillout" defaultMessage="Please click on the 'apply' button above and fill out the application form which takes less than 1 minute. As soon as we check out your application, you will be invited to Lokalise as a translator." /></p>
+                <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.fillout" defaultMessage="Click on the 'apply' button above and fill out the application form which takes less than 1 minute." /></p>
                   <div className="lokalise-img">
-                    <img src={require("../images/lokalise1.png")} width="70%" alt="Example Translation Application Form" ></img><br /><br /><br />
-                    <img src={require("../images/lokalise2.png")} width="70%" alt="Example Application Completion" ></img>                    
-                  </div>               
+                    <img src={require("../images/lokalise1.png")} width="70%" alt="Example Translation Application Form" ></img><br /><br />          
+                  </div>
+                <p><b><FormattedMessage id="main.step2" defaultMessage="Step 2 : " /></b><FormattedMessage id="main.step1-1" defaultMessage="As soon as we check out your application, you will be invited to Lokalise as a translator by email as below. Find the 'Click here to open the project' link." /></p>
+                  <div className="lokalise-img">
+                    <img src={require("../images/lokalise2.png")} width="70%" alt="Example Application Completion" ></img>
+                  </div>
               </div>          
               <div className="margin-bottom-40">
-                <p><b><FormattedMessage id="main.step2" defaultMessage="Step 2 : " /></b><FormattedMessage id="main.find" defaultMessage="Sign up for Lokalise and you will find the words and sentences which are used on the Status app and website. Lokalise offers useful online translators(e.g. Google Translate, Microsoft Translator, and Yandex.Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated." /></p>
+                <p><b><FormattedMessage id="main.step3" defaultMessage="Step 3 : " /></b><FormattedMessage id="main.find" defaultMessage="Sign up for Lokalise and you will find the words and sentences which are used on the Status app and website. Lokalise offers useful online translators(e.g. Google Translate, Microsoft Translator, and Yandex.Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated." /></p>
                 <div className="lokalise-img">
                   <img src={require("../images/lokalise3.png")} width="70%" alt="Example Lokalise Usage" ></img>
                 </div>
