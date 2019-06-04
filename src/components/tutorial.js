@@ -51,9 +51,10 @@ class Tutorial extends Component {
           <h2><FormattedMessage id="main.contact" defaultMessage="Contact Us" /></h2>
           
           <div className="align-center">
-            <p><FormattedMessage id="main.contact-explanation" defaultMessage="if you have any further questions, feel free to contact us" /></p>
+            <p><FormattedMessage id="main.contact-explanation" defaultMessage="Do you want to add your language or ask something? Don't hesitate to contact us!" /></p>
+            <p><a href="https://github.com/status-im/translate.status.im" target="_blank"><FormattedMessage id="main.pullrequest" defaultMessage="Submit a pull request to add a language" /></a></p>
             <p><a href="mailto:translate@status.im">translate@status.im</a></p>
-            <p><a href="https://get.status.im/chat/public/status-translate"><FormattedMessage id="main.public-chat" defaultMessage="#Status-translate public chat" /></a></p>
+            <p><a href="https://get.status.im/chat/public/status-translate" target="_blank"><FormattedMessage id="main.public-chat" defaultMessage="#Status-translate public chat" /></a></p>
           </div>
         </section>      
        

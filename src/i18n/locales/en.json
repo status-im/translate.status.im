@@ -1,5 +1,5 @@
 {
-  "form.contact": "if you have any further questions, feel free to contact us",
+  "form.contact": "Do you want to add your language or ask something? Don't hesitate to contact us!",
   "form.email": "email",
   "form.feedback": "Your feedback is always welcome! Thank you very much",
   "form.message": "message",
@@ -15,7 +15,7 @@
   "main.before-lokalise": "You can translate the Status app and website into your language with",
   "main.chinese": "Chinese",
   "main.contact": "Contact Us",
-  "main.contact-explanation": "if you have any further questions, feel free to contact us.",
+  "main.contact-explanation": "Do you want to add your language or ask something? Don't hesitate to contact us!",
   "main.doc-example": " here.",
   "main.documentation": "Documentation",
   "main.documentation-explanation": "We will refresh our documentation soon. Stay tunded and we will let you know when we are ready! You can see how our documentation's .md files look like",
@@ -26,6 +26,7 @@
   "main.lokalise": "Lokalise!",
   "main.portuguese": "Portuguese",
   "main.public-chat": "#Status-translate public chat",
+  "main.pullrequest": "Submit a pull request to add a language",
   "main.russian": "Russian",
   "main.spanish": "Spanish",
   "main.spanish-latin": "Spanish (LA)",
