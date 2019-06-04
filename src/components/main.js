@@ -16,7 +16,7 @@ class Main extends Component {
                   <img src={require("../images/flags/korea.png")} className="flag" alt="Korean Flag"/>
                   <p className="language-title"><FormattedMessage id="main.korean" defaultMessage="Korean" /></p>
                   <a href="https://lokalise.co/signup/562366815b97551836b8f1.55149963/ko/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
-                  <a href="https://lokalise.co/public/831920985cf29a3c550a85.62099336/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im Website Translation" /></p></a>                 
+                  <a href="https://lokalise.co/signup/831920985cf29a3c550a85.62099336/ko/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im Website Translation" /></p></a>                 
                 </div>
 
                 <div className="language-two">
