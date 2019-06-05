@@ -53,6 +53,12 @@ class Main extends Component {
                 <a href="https://lokalise.co/signup/562366815b97551836b8f1.55149963/pt/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>     
               </div>
             </div>
+
+            <div className="align-center">
+              <p><FormattedMessage id="main.addlanguage" defaultMessage="Want to add your Language?" /></p>
+          <p><a href="https://github.com/status-im/translate.status.im" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest" defaultMessage="Submit a pull request to this Github repository" /></a></p>
+            </div>
+
       </main>
     );
   }

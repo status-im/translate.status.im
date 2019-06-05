@@ -95,6 +95,16 @@
     "filepath": "src/components/main.js"
   },
   {
+    "id": "main.addlanguage",
+    "defaultMessage": "Want to add your Language?",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.pullrequest",
+    "defaultMessage": "Submit a pull request to add a language",
+    "filepath": "src/components/main.js"
+  },
+  {
     "id": "nav.home",
     "defaultMessage": "Home",
     "filepath": "src/components/nav.js"
@@ -191,7 +201,7 @@
   },
   {
     "id": "main.contact-explanation",
-    "defaultMessage": "Do you want to add your language or ask something? Don't hesitate to contact us!",
+    "defaultMessage": "Do you have something to ask? Don't hesitate to contact us!",
     "filepath": "src/components/tutorial.js"
   },
   {
