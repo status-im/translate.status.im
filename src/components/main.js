@@ -56,7 +56,7 @@ class Main extends Component {
 
             <div className="align-center">
               <p><FormattedMessage id="main.addlanguage" defaultMessage="Want to add your Language?" /></p>
-          <p><a href="https://github.com/status-im/translate.status.im" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest" defaultMessage="Submit a pull request to this Github repository" /></a></p>
+              <p><a href="https://github.com/status-im/translate.status.im" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest" defaultMessage="Submit a pull request to this Github repository" /></a></p>
             </div>
 
       </main>
