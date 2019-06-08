@@ -30,6 +30,11 @@ main a:link, main a:visited {
   color: #4360DF;
 }
 
+header a:link, header a:visited {
+  text-decoration: none;
+  color: #4360DF;
+}
+
 .align-left {
   text-align: left;
 }
@@ -40,6 +45,10 @@ main a:link, main a:visited {
 
 .margin-bottom-40{
   margin-bottom: 40px;
+}
+
+.cta-margin-top{
+  margin-top: 20px;
 }
 
 /*------------- NAVIGATION BAR -------------------*/
@@ -562,6 +571,9 @@ footer ul li a {
   font-size: 1rem;
   }
 
+  .cta-margin-top{
+    margin-top: 5px;
+  }
 
   header {
     height: 350px;

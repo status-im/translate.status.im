@@ -65,6 +65,11 @@
     "filepath": "src/components/header.js"
   },
   {
+    "id": "header.howtocontribute",
+    "defaultMessage": "How to contribute?",
+    "filepath": "src/components/header.js"
+  },
+  {
     "id": "main.korean",
     "defaultMessage": "Korean",
     "filepath": "src/components/langs.js"
@@ -136,7 +141,7 @@
   },
   {
     "id": "main.tracklanguage",
-    "defaultMessage": "Want to track the progress?",
+    "defaultMessage": "Track the translation progress",
     "filepath": "src/components/main.js"
   },
   {
