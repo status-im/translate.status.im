@@ -1,63 +1,99 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
+import languages from './langs'
+
+function LangCard(props){
+  return (
+    <div>
+      <img src= {props.lang.langFlag} className="flag" alt={props.code} />
+      <p className = "language-title">{props.lang.langName}</p>
+      <a href = {props.link.app} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
+      <a href = {props.link.website} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im Website Translation" /></p></a>
+    </div>
+  );
+}
 
 class Main extends Component {
   render() {
     return (
       <main>
-        
+
         <div className="title-center">
           <h1><FormattedMessage id="main.language" defaultMessage="Languages to Translate" /></h1>
         </div>
 
         <div>
+             
              <div className="languages">
-                <div className="language-one">
-                  <img src={require("../images/flags/korea.png")} className="flag" alt="Korean Flag"/>
-                  <p className="language-title"><FormattedMessage id="main.korean" defaultMessage="Korean" /></p>
-                  <a href="https://lokalise.co/signup/562366815b97551836b8f1.55149963/ko/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
-                  <a href="https://lokalise.co/signup/831920985cf29a3c550a85.62099336/ko/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im Website Translation" /></p></a>                 
-                </div>
 
-                <div className="language-two">
-                  <img src={require("../images/flags/china.png")} className="flag" alt="Chinese Flag" />
-                  <p className="language-title"><FormattedMessage id="main.chinese" defaultMessage="Chinese" /></p>
-                  <a href="https://lokalise.co/signup/562366815b97551836b8f1.55149963/zh_Hans_CN/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>    
-                </div>
+                <LangCard
+                  lang={languages.korean.lang}
+                  link={languages.korean.link}
+                />
 
-                <div className="language-three">
-                  <img src={require("../images/flags/russia.svg")} className="flag" alt="Russian Flag" />
-                  <p className="language-title"><FormattedMessage id="main.russian" defaultMessage="Russian" /></p>
-                  <a href="https://lokalise.co/signup/562366815b97551836b8f1.55149963/ru/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
-                </div>
+                <LangCard
+                  lang={languages.chinese.lang}
+                  link={languages.chinese.link}
+                />
+
+                <LangCard
+                  lang={languages.russian.lang}
+                  link={languages.russian.link}
+                />                          
 
             </div>
+
+            <div className="languages">
+
+                <LangCard
+                  lang={languages.spanish_es.lang}
+                  link={languages.spanish_es.link}
+                />   
+
+                <LangCard
+                  lang={languages.spanish_la.lang}
+                  link={languages.spanish_la.link}
+                />   
+
+
+                <LangCard
+                  lang={languages.portguese_pt.lang}
+                  link={languages.portguese_pt.link}
+                />
+              
+            </div>
+
+          <div className="languages">
+
+                <LangCard
+                  lang={languages.portguese_br.lang}
+                  link={languages.portguese_br.link}
+                />
+
+                <LangCard
+                  lang={languages.german.lang}
+                  link={languages.german.link}
+                />
+
+                <LangCard
+                  lang={languages.french.lang}
+                  link={languages.french.link}
+                />
 
           </div>
-            <div className="languages">
-              <div className="language-one">
-                <img src={require("../images/flags/spain.png")} className="flag" alt="Spanish Flag" />
-                <p className="language-title"><FormattedMessage id="main.spanish" defaultMessage="Spanish" /></p>
-                <a href="https://lokalise.co/signup/562366815b97551836b8f1.55149963/es/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
-              </div>
-
-              <div className="language-two">
-                <img src={require("../images/flags/latin_america.png")} className="flag" alt="Latin America Icon" />
-                <p className="language-title"><FormattedMessage id="main.spanish-latin" defaultMessage="Spanish (LA)" /></p>
-                <a href="https://lokalise.co/signup/562366815b97551836b8f1.55149963/es_419/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
-              </div>
-
-              <div className="language-three">
-                <img src={require("../images/flags/portugal.png")} className="flag" alt="Portuguese Flag" />
-                <p className="language-title"><FormattedMessage id="main.portuguese" defaultMessage="Portuguese" /></p>
-                <a href="https://lokalise.co/signup/562366815b97551836b8f1.55149963/pt/" target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>     
-              </div>
-            </div>
 
             <div className="align-center">
               <p><FormattedMessage id="main.addlanguage" defaultMessage="Want to add your Language?" /></p>
               <p><a href="https://github.com/status-im/translate.status.im" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest" defaultMessage="Submit a pull request to this Github repository" /></a></p>
+            </div> <br /><br />
+
+            <div className="align-center">
+              <p><FormattedMessage id="main.tracklanguage" defaultMessage="Track the translation progress" /></p>
+              <p><a href="https://lokalise.co/public/562366815b97551836b8f1.55149963/" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.app-translation" defaultMessage="Status app translation" /></a></p>
+              <p><a href="https://lokalise.co/public/831920985cf29a3c550a85.62099336/" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.website-translation" defaultMessage="Status.im website translation" /></a></p>              
             </div>
+
+        </div>
 
       </main>
     );

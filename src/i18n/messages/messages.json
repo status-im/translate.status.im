@@ -1,5 +1,20 @@
 [
   {
+    "id": "main.contact",
+    "defaultMessage": "Contact Us",
+    "filepath": "src/components/contacts.js"
+  },
+  {
+    "id": "main.contact-explanation",
+    "defaultMessage": "Do you have any questions? Don't hesitate to contact us!",
+    "filepath": "src/components/contacts.js"
+  },
+  {
+    "id": "main.public-chat",
+    "defaultMessage": "#Status-translate public chat",
+    "filepath": "src/components/contacts.js"
+  },
+  {
     "id": "form.contact",
     "defaultMessage": "if you have any further questions, feel free to contact us",
     "filepath": "src/components/form.js"
@@ -50,14 +65,49 @@
     "filepath": "src/components/header.js"
   },
   {
-    "id": "main.language",
-    "defaultMessage": "Languages to Translate",
-    "filepath": "src/components/main.js"
-  },
-  {
     "id": "main.korean",
     "defaultMessage": "Korean",
-    "filepath": "src/components/main.js"
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.chinese",
+    "defaultMessage": "Chinese",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.russian",
+    "defaultMessage": "Russian",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.spanish",
+    "defaultMessage": "Spanish (ES)",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.spanish-latin",
+    "defaultMessage": "Spanish (LA)",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.portuguese-pt",
+    "defaultMessage": "Portuguese (PT)",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.portuguese-br",
+    "defaultMessage": "Portuguese (BR)",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.german",
+    "defaultMessage": "German",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.france",
+    "defaultMessage": "French",
+    "filepath": "src/components/langs.js"
   },
   {
     "id": "main.app-application",
@@ -70,28 +120,8 @@
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.chinese",
-    "defaultMessage": "Chinese",
-    "filepath": "src/components/main.js"
-  },
-  {
-    "id": "main.russian",
-    "defaultMessage": "Russian",
-    "filepath": "src/components/main.js"
-  },
-  {
-    "id": "main.spanish",
-    "defaultMessage": "Spanish",
-    "filepath": "src/components/main.js"
-  },
-  {
-    "id": "main.spanish-latin",
-    "defaultMessage": "Spanish (LA)",
-    "filepath": "src/components/main.js"
-  },
-  {
-    "id": "main.portuguese",
-    "defaultMessage": "Portuguese",
+    "id": "main.language",
+    "defaultMessage": "Languages to Translate",
     "filepath": "src/components/main.js"
   },
   {
@@ -101,7 +131,22 @@
   },
   {
     "id": "main.pullrequest",
-    "defaultMessage": "Submit a pull request to add a language",
+    "defaultMessage": "Submit a pull request to this Github repository",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.tracklanguage",
+    "defaultMessage": "Want to track the progress?",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.app-translation",
+    "defaultMessage": "Status app translation",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.website-translation",
+    "defaultMessage": "Status.im website translation",
     "filepath": "src/components/main.js"
   },
   {
@@ -192,26 +237,6 @@
   {
     "id": "main.doc-example",
     "defaultMessage": "here",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.contact",
-    "defaultMessage": "Contact Us",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.contact-explanation",
-    "defaultMessage": "Do you have something to ask? Don't hesitate to contact us!",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.pullrequest",
-    "defaultMessage": "Submit a pull request to add a language",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.public-chat",
-    "defaultMessage": "#Status-translate public chat",
     "filepath": "src/components/tutorial.js"
   }
 ]

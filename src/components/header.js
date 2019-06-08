@@ -12,6 +12,7 @@ class Header extends Component {
             <p><strong><FormattedMessage id="header.status" defaultMessage="Status" /></strong><FormattedMessage id="header.status-explanation-1" defaultMessage=" is completely open source and made by contributors all over the world."/>< br />
             <FormattedMessage id="header.status-explanation-2" defaultMessage="Your translations can help more people utilize this secure, censorship-resistant service" /></p>
             </div>
+
         </div>
        
       </header>
