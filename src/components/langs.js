@@ -23,7 +23,7 @@ const languages = {
         },
         link: {
             app: "https://lokalise.co/signup/562366815b97551836b8f1.55149963/zh_Hans_CN/",
-            website: "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/zh_Hans_CN/",
+            website: "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/zh_CN/",
         }
     },
 
