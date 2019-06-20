@@ -111,6 +111,42 @@ const languages = {
         }
     },
 
+    japanese: {
+        code: 'ja',
+        lang: {
+            langFlag: require("../images/flags/japan.png"),
+            langName: <FormattedMessage id="main.japan" defaultMessage="Japan" />,
+        },
+        link: {
+            app: "https://lokalise.co/signup/562366815b97551836b8f1.55149963/ja/",
+            website: "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/ja/",
+        }
+    },
+
+    persian: {
+        code: 'fa',
+        lang: {
+            langFlag: require("../images/flags/iran.png"),
+            langName: <FormattedMessage id="main.iran" defaultMessage="Persian" />,
+        },
+        link: {
+            app: "https://lokalise.co/signup/562366815b97551836b8f1.55149963/fa/",
+            website: "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/fa/",
+        }
+    },
+
+    dutch: {
+        code: 'nl',
+        lang: {
+            langFlag: require("../images/flags/netherlands.svg"),
+            langName: <FormattedMessage id="main.netherlands" defaultMessage="Dutch" />,
+        },
+        link: {
+            app: "https://lokalise.co/signup/562366815b97551836b8f1.55149963/nl/",
+            website: "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/nl/",
+        }
+    },
+
 }
  
 export default languages;

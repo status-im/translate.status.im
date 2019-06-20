@@ -115,6 +115,21 @@
     "filepath": "src/components/langs.js"
   },
   {
+    "id": "main.japan",
+    "defaultMessage": "Japan",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.iran",
+    "defaultMessage": "Persian",
+    "filepath": "src/components/langs.js"
+  },
+  {
+    "id": "main.netherlands",
+    "defaultMessage": "Dutch",
+    "filepath": "src/components/langs.js"
+  },
+  {
     "id": "main.app-application",
     "defaultMessage": "App Translation",
     "filepath": "src/components/main.js"

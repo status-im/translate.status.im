@@ -38,10 +38,29 @@ class Main extends Component {
                   />
 
                   <LangCard
-                    lang={languages.russian.lang}
-                    link={languages.russian.link}
-                  />                          
+                    lang={languages.japanese.lang}
+                    link={languages.japanese.link}
+                  />                       
 
+              </div>
+
+              <div className="languages">
+
+                  <LangCard
+                    lang={languages.german.lang}
+                    link={languages.german.link}
+                  />
+
+                  <LangCard
+                    lang={languages.french.lang}
+                    link={languages.french.link}
+                  />
+
+                  <LangCard
+                    lang={languages.dutch.lang}
+                    link={languages.dutch.link}
+                  />
+                  
               </div>
 
               <div className="languages">
@@ -64,24 +83,25 @@ class Main extends Component {
                 
               </div>
 
-            <div className="languages">
+              <div className="languages">
 
                   <LangCard
                     lang={languages.portguese_br.lang}
                     link={languages.portguese_br.link}
-                  />
+                  />                
 
                   <LangCard
-                    lang={languages.german.lang}
-                    link={languages.german.link}
-                  />
+                    lang={languages.russian.lang}
+                    link={languages.russian.link}
+                  />   
 
                   <LangCard
-                    lang={languages.french.lang}
-                    link={languages.french.link}
+                    lang={languages.persian.lang}
+                    link={languages.persian.link}
                   />
 
-            </div>
+              </div>
+
 
               <div className="align-center">
                 <p><FormattedMessage id="main.addlanguage" defaultMessage="Want to add your Language?" /></p>
