@@ -70,6 +70,16 @@
     "filepath": "src/components/header.js"
   },
   {
+    "id": "main.app-application",
+    "defaultMessage": "App Translation",
+    "filepath": "src/components/langcard.js"
+  },
+  {
+    "id": "main.website-application",
+    "defaultMessage": "Status.im Website Translation",
+    "filepath": "src/components/langcard.js"
+  },
+  {
     "id": "main.korean",
     "defaultMessage": "Korean",
     "filepath": "src/components/langs.js"
@@ -85,63 +95,18 @@
     "filepath": "src/components/langs.js"
   },
   {
-    "id": "main.spanish",
-    "defaultMessage": "Spanish (ES)",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.spanish-latin",
-    "defaultMessage": "Spanish (LA)",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.portuguese-pt",
-    "defaultMessage": "Portuguese (PT)",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.portuguese-br",
-    "defaultMessage": "Portuguese (BR)",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.german",
-    "defaultMessage": "German",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.france",
-    "defaultMessage": "French",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.japan",
-    "defaultMessage": "Japan",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.iran",
-    "defaultMessage": "Persian",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.netherlands",
-    "defaultMessage": "Dutch",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.app-application",
-    "defaultMessage": "App Translation",
-    "filepath": "src/components/main.js"
-  },
-  {
-    "id": "main.website-application",
-    "defaultMessage": "Status.im Website Translation",
-    "filepath": "src/components/main.js"
-  },
-  {
     "id": "main.language",
     "defaultMessage": "Languages to Translate",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.sort_alphabetical",
+    "defaultMessage": "Alphabetical Order",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.sort_reverse",
+    "defaultMessage": "Reverse Orfer",
     "filepath": "src/components/main.js"
   },
   {
