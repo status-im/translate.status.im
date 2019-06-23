@@ -88,6 +88,8 @@ nav {
 
 .button:hover {
   background-color: rgb(121, 121, 121);
+  border-color: rgb(121, 121, 121);
+  border-style: solid;
 }
 
 nav img {

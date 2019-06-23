@@ -8,6 +8,7 @@ class LangCard extends Component{
             postItem: null
         }
     }
+    
     handleRemoveContentButton(event) {
         if (this.props.didHandleRemove) {
             this.props.didHandleRemove(this.props.post)

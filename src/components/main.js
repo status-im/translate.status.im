@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
-import PostData from './posts.json';
+import LangData from './langs.json';
 import LangCard from './langcard';
 
 class Main extends Component {
@@ -40,7 +40,7 @@ class Main extends Component {
   }
 
   componentDidMount() {
-    const postList = PostData;
+    const postList = LangData;
     this.setState({
       isOldestFirst: true,
       postList: postList
