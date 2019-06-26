@@ -13,7 +13,7 @@ import translations from './i18n/locales';
 addLocaleData(enLocaleData);
 addLocaleData(koLocaleData);
 
-var locale = (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0,2)) || "en";
+var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0,2)) || "en";;
 var messages = translations[locale];
 
 class App extends Component {
