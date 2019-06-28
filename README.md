@@ -9,7 +9,7 @@ Your translations can help more people utilize this secure, censorship-resistant
 
 Please submit a pull request with a .json and national flag image.
 
-*1) .json (translate.status.im/src/components/langs.json)
+* 1) .json (translate.status.im/src/components/langs.json)
 
 e.g.
 
@@ -27,7 +27,7 @@ e.g.
 You can find a language code here: https://www.w3schools.com/tags/ref_language_codes.asp
 
 
-*2) A national flag image : https://github.com/status-im/translate.status.im/tree/develop/src/images/flags
+* 2) A national flag image : https://github.com/status-im/translate.status.im/tree/develop/src/images/flags
 
 
 
