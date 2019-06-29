@@ -2,7 +2,8 @@
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize this secure, censorship-resistant service.
 
-You can translate the Status app and website into your language with [Lokalise](https://lokalise.co/) and find a list of languages that can be translated on this website: https://translate.status.im/)
+You can translate the Status app and website into your language with [Lokalise](https://lokalise.co/) and find a list of languages that can be translated on this website: https://translate.status.im/.
+
 <br />
 
 ## How to help translate?
@@ -29,7 +30,7 @@ All languages have a different word order and cutural background. We encourage y
 - **Review**  
 Each of the languages will be reviewed by a regional ambassadors or other open source communities. Do you want to be a reviewer? Contact us through email: translate@status.im
 
-- **Progress**
+- **Progress**  
 You can find the progresses on the [translation campaign website](https://translate.status.im/)
 
 - **Merge**  
@@ -42,7 +43,7 @@ If a language is 100% translated and reviewed by the community, we are going to 
 
 Please submit a pull request with the requirements below.
 
-1) .json (translate.status.im/src/components/langs.json)
+1) .json (https://github.com/status-im/translate.status.im/blob/develop/src/components/langs.json)
 
 * For example
 
