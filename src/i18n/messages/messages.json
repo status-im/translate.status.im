@@ -80,21 +80,6 @@
     "filepath": "src/components/langcard.js"
   },
   {
-    "id": "main.korean",
-    "defaultMessage": "Korean",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.chinese",
-    "defaultMessage": "Chinese",
-    "filepath": "src/components/langs.js"
-  },
-  {
-    "id": "main.russian",
-    "defaultMessage": "Russian",
-    "filepath": "src/components/langs.js"
-  },
-  {
     "id": "main.language",
     "defaultMessage": "Languages to Translate",
     "filepath": "src/components/main.js"
@@ -106,12 +91,27 @@
   },
   {
     "id": "main.sort_reverse",
-    "defaultMessage": "Reverse Orfer",
+    "defaultMessage": "Reverse Order",
     "filepath": "src/components/main.js"
   },
   {
     "id": "main.addlanguage",
     "defaultMessage": "Want to add your Language?",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.checkoutthis",
+    "defaultMessage": "Check out this",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.pullrequest-link",
+    "defaultMessage": "translation guidelines",
+    "filepath": "src/components/main.js"
+  },
+  {
+    "id": "main.and",
+    "defaultMessage": "and",
     "filepath": "src/components/main.js"
   },
   {
@@ -201,7 +201,17 @@
   },
   {
     "id": "main.step3-1",
-    "defaultMessage": "There are words and sentences which are used on the Status app or website. Lokalise offers useful online translators (e.g. Google Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Just start the translation!",
+    "defaultMessage": "There are words and sentences which are used on the Status app or website. Lokalise offers useful online translators (e.g. Google Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Read this",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.pullrequest-link",
+    "defaultMessage": "translation guidelines",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.andstart",
+    "defaultMessage": "and let's get it started!",
     "filepath": "src/components/tutorial.js"
   },
   {

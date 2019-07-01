@@ -31,7 +31,10 @@ class Tutorial extends Component {
                   </div>
                 </div>
                 <div className="margin-bottom-40">
-                  <p><b><FormattedMessage id="main.step3" defaultMessage="Step 3 : " /></b><FormattedMessage id="main.step3-1" defaultMessage="There are words and sentences which are used on the Status app or website. Lokalise offers useful online translators (e.g. Google Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Just start the translation!" /></p>
+                  <p><b><FormattedMessage id="main.step3" defaultMessage="Step 3 : " /></b><FormattedMessage id="main.step3-1" defaultMessage="There are words and sentences which are used on the Status app or website. Lokalise offers useful online translators (e.g. Google Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Read this" />
+                  <a href="https://github.com/status-im/translate.status.im/blob/develop/README.md#translation-guidelines" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest-link" defaultMessage="translation guidelines" /></a>
+                  <FormattedMessage id="main.andstart" defaultMessage="and let's get it started!" />
+                  </p>                  
                   <div className="lokalise-img">
                     <img src={require("../images/lokalise3.png")} width="80%" alt="Example Lokalise Usage" ></img>
                   </div>
