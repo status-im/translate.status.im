@@ -25,7 +25,14 @@ You can translate the Status app and website into your language with [Lokalise](
 ## Translation Guidelines
 
 - **Translation**  
-All languages have a different word order and cutural background. Therefore, we encourage you to translate all the words and sentences into your language in comparison with the actual DApp, website, and etc. Also, you need to be careful when using the online translators that Lokalise offers. For example, [Status](https://dictionary.cambridge.org/dictionary/english/status) itself is an English word so there could be some incorrect translations by the online translators. Please review all the translations carefully.
+All languages have a different word order and cutural background. Therefore, we encourage you to translate all the words and sentences into your language in comparison with the actual DApp, website, and etc. Also, you need to be careful when using the online translators that Lokalise offers. For example, [Status](https://dictionary.cambridge.org/dictionary/english/status) itself is an English word so there could be some incorrect translations by the online translators. Please review all the translations carefully before you start translations.
+   - Status DApp
+     - Donwload: https://status.im/get/
+     - Language files: https://github.com/status-im/status-react/tree/develop/translations
+   - Status.im website:
+     - Homepage: https://status.im/
+     - Repo: https://github.com/status-im/status.im
+
 
 - **Review**  
 Each of the languages will be reviewed by a regional ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live with Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting) feature. To be a reviewer, contact us through email: translate@status.im or [Status public chat](https://get.status.im/chat/public/status-translate).
@@ -67,7 +74,7 @@ You can find a language code [here](https://www.w3schools.com/tags/ref_language_
 <br />
 
 
-## Deployment
+## Translate.status.im Deployment
 
 [Node](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) need to be installed before.
 
