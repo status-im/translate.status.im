@@ -28,7 +28,7 @@ You can translate the Status app and website into your language with [Lokalise](
 All languages have a different word order and cutural background. Therefore, we encourage you to translate all the words and sentences into your language in comparison with the actual DApp, website, and etc. Also, you need to be careful when using the online translators that Lokalise offers. For example, [Status](https://dictionary.cambridge.org/dictionary/english/status) itself is an English word so there could be some incorrect translations by the online translators. Please review all the translations carefully.
 
 - **Review**  
-Each of the languages will be reviewed by a regional ambassadors or other open source communities. Do you want to be a reviewer? Contact us through email: translate@status.im or [Status public chat](https://get.status.im/chat/public/status-translate).
+Each of the languages will be reviewed by a regional ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live with Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting) feature. To be a reviewer, contact us through email: translate@status.im or [Status public chat](https://get.status.im/chat/public/status-translate).
 
 - **Progress**  
 You can find the progresses on the [translation campaign website](https://translate.status.im/).
