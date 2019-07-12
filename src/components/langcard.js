@@ -5,44 +5,44 @@ class LangCard extends Component{
     constructor(props){
         super(props)
         this.state = {
-            postItem: null
+            cardItem: null
         }
     }
     
     handleRemoveContentButton(event) {
         if (this.props.didHandleRemove) {
-            this.props.didHandleRemove(this.props.post)
+            this.props.didHandleRemove(this.props.card)
         }
     }
 
-    setPostStateOnProps() {
-        const { post } = this.props
+    setCardStateOnProps() {
+        const { card } = this.props
         this.setState({
-            postItem: post
+            cardItem: card
         })
     }
 
     componentDidMount() {
-        this.setPostStateOnProps()
+        this.setCardStateOnProps()
     }
 
     componentDidUpdate(prevProps, prevState, snapshop) {
         if (this.props !== prevProps) {
-            this.setPostStateOnProps()
+            this.setCardStateOnProps()
         }
     }
 
     render(){
-        const { postItem } = this.state
+        const { cardItem } = this.state
         return (
             <div className="card align-center">
-                {postItem !== null
+                {cardItem !== null
                     ? 
                     <div className="padding-top-20">
-                        <p className="language-title">{postItem.lang_en}</p>
-                        <p className="language-name">{postItem.lang}</p>
-                        <a href={postItem.app} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
-                        <a href={postItem.website} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im Website Translation" /></p></a>
+                        <p className="language-title">{cardItem.lang_en}</p>
+                        <p className="language-name">{cardItem.lang}</p>
+                        <a href={cardItem.app} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
+                        <a href={cardItem.website} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im Website Translation" /></p></a>
                     </div>
 
                     : ''}
