@@ -3,27 +3,38 @@ import { FormattedMessage } from 'react-intl';
 import LangData from './langs.json';
 import LangCard from './langcard';
 
+function shuffleArray(array) {
+  let i = array.length - 1;
+  for (; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
+
 class Main extends Component {
   constructor(props) {
     super(props)
     this.toggleListReverse = this.toggleListReverse.bind(this)
     this.toggleSortLang = this.toggleSortLang.bind(this)
     this.state = {
-      postList: [],
+      cardList: [],
       isOldestFirst: true
     }
   }
 
   sortByLang() {
-    const { postList } = this.state
-    let newPostList = postList.sort((a,b)=> {
+    const { cardList } = this.state
+    let newCardList = cardList.sort((a,b)=> {
       if (a.lang < b.lang) { return -1; }
       if (a.lang > b.lang) { return 1; }
       return 0;
     });
 
     this.setState({
-      postList: newPostList
+      cardList: newCardList
     })
   }
 
@@ -32,23 +43,25 @@ class Main extends Component {
   }
 
   toggleListReverse(event) {
-    const { postList } = this.state
-    let newPostList = postList.reverse()
+    const { cardList } = this.state
+    let newCardList = cardList.reverse()
     this.setState({
-      postList: newPostList
+      cardList: newCardList
     })
   }
 
   componentDidMount() {
-    const postList = LangData;
+    const cardList = LangData;
     this.setState({
       isOldestFirst: true,
-      postList: postList
+      cardList: cardList
     })
   }
 
   render() {
-    const { postList } = this.state;
+    const { cardList } = this.state;
+    const shuffledCards = shuffleArray(cardList);
+
     return (
 
         <main>
@@ -66,10 +79,10 @@ class Main extends Component {
 
           <div className="languages">
 
-          {postList.map((item, index) => {
+          {shuffledCards.map((item, index) => {
             return <LangCard
-            post = {item}
-            key={`post-list-key ${index}`}
+            card = {item}
+            key={`car-list-key ${index}`}
             />
           })}
 
