@@ -17,8 +17,8 @@ class Main extends Component {
   sortByLang() {
     const { postList } = this.state
     let newPostList = postList.sort((a,b)=> {
-      if (a.lang < b.lang) { return -1; }
-      if (a.lang > b.lang) { return 1; }
+      if (a.lang_en < b.lang_en) { return -1; }
+      if (a.lang_en > b.lang_en) { return 1; }
       return 0;
     });
 
