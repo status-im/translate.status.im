@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.44056f54.chunk.css",
-    "main.js": "/static/js/main.b0b47b9d.chunk.js",
-    "main.js.map": "/static/js/main.b0b47b9d.chunk.js.map",
+    "main.css": "/static/css/main.04d80b09.chunk.css",
+    "main.js": "/static/js/main.4712f675.chunk.js",
+    "main.js.map": "/static/js/main.4712f675.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.5c6efc3c.chunk.js": "/static/js/2.5c6efc3c.chunk.js",
-    "static/js/2.5c6efc3c.chunk.js.map": "/static/js/2.5c6efc3c.chunk.js.map",
+    "static/js/2.0682b509.chunk.js": "/static/js/2.0682b509.chunk.js",
+    "static/js/2.0682b509.chunk.js.map": "/static/js/2.0682b509.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.158adfeb5b34d46006c7103cdd3880ab.js": "/precache-manifest.158adfeb5b34d46006c7103cdd3880ab.js",
+    "precache-manifest.843ccdb449186c0473954f626767ebc9.js": "/precache-manifest.843ccdb449186c0473954f626767ebc9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.44056f54.chunk.css.map": "/static/css/main.44056f54.chunk.css.map",
-    "static/media/iran.png": "/static/media/iran.39882047.png",
-    "static/media/korea.png": "/static/media/korea.c5c7b09c.png",
-    "static/media/latin_america.png": "/static/media/latin_america.6345ed4c.png",
+    "static/css/main.04d80b09.chunk.css.map": "/static/css/main.04d80b09.chunk.css.map",
     "static/media/logo.png": "/static/media/logo.b8735962.png",
     "static/media/lokalise1.png": "/static/media/lokalise1.74158436.png",
     "static/media/lokalise2.png": "/static/media/lokalise2.027da6b2.png",
     "static/media/lokalise3.png": "/static/media/lokalise3.bdc55310.png",
-    "static/media/netherlands.svg": "/static/media/netherlands.e53fc83f.svg",
-    "static/media/russia.svg": "/static/media/russia.769f2aee.svg",
-    "static/media/spain.png": "/static/media/spain.2983be30.png",
     "static/media/index.css": "/static/media/world-map.92175f68.png"
   }
 }
