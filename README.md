@@ -52,7 +52,7 @@ If a language is 100% translated and reviewed by the community, we are going to 
 
 Please submit a pull request with the requirements below.
 
-1) .json (https://github.com/status-im/translate.status.im/blob/develop/src/components/langs.json)
+1) Add your language in langs.json (https://github.com/status-im/translate.status.im/blob/develop/src/components/langs.json)
 
 * Example:
 
