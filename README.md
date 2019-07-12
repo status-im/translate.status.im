@@ -52,26 +52,26 @@ If a language is 100% translated and reviewed by the community, we are going to 
 
 Please submit a pull request with the requirements below.
 
-1) .json (https://github.com/status-im/translate.status.im/blob/develop/src/components/langs.json)
+1) Add your language in langs.json (https://github.com/status-im/translate.status.im/blob/develop/src/components/langs.json)
 
-* For example
+* Example:
 
 ```bash
     {
         "id": 1,
-        "lang": "Korean",
+        "lang_en": "Korean",
+        "lang": "한국어",
         "code": "ko",
-        "langFlag": "korea.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/ko/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/ko/"
     },
 ```
 
-You can find a language code [here](https://www.w3schools.com/tags/ref_language_codes.asp).
+* You can find a language code [here](https://www.w3schools.com/tags/ref_language_codes.asp).
 
 <br />
 
-2) A national flag image : https://github.com/status-im/translate.status.im/tree/develop/src/images/flags
+2) Submit your pull request [here](https://github.com/status-im/translate.status.im/pulls).
 
 <br />
 
