@@ -7,6 +7,12 @@ body {
 
 }
 
+.language-name {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
 body * {
   transition: all 0.300s ease-in-out;
 }
@@ -50,6 +56,11 @@ header a:link, header a:visited {
 .margin-bottom-20{
   margin-bottom: 20px;
 }
+
+.padding-top-20{
+  padding-top: 20px;
+}
+
 
 .cta-margin-top{
   margin-top: 20px;

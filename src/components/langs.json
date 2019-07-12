@@ -1,108 +1,136 @@
 [ 
     {
         "id": 1,
-        "lang": "Korean",
+        "lang_en": "Korean",
+        "lang": "한국어",
         "code": "ko",
-        "langFlag": "korea.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/ko/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/ko/"
     },
 
     {
         "id": 2,
-        "lang": "Chinese",
+        "lang_en": "Chinese",
+        "lang": "简体中文",
         "code": "zh_Hans_CN",
-        "langFlag": "china.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/zh_Hans_CN/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/zh_Hans_CN/"
     },
 
     {
         "id": 3,
-        "lang": "Japanese",
+        "lang_en": "Japanese",
+        "lang": "日本語",
         "code": "ja",        
-        "langFlag": "japan.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/ja/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/ja/"
     },
 
     {
         "id": 4,
-        "lang": "German",
+        "lang_en": "German",
+        "lang": "Deutsch",
         "code": "de",
-        "langFlag": "germany.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/de/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/de/"
     },
 
     {
         "id": 5,
-        "lang": "French",
-        "code": "fR",
-        "langFlag": "france.png",
+        "lang_en": "French",
+        "lang": "Français",
+        "code": "fr",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/fr/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/fr/"
     },
 
     {
         "id": 6,
-        "lang": "Dutch",
+        "lang_en": "Italian",
+        "lang": "Italiano",
+        "code": "it",
+        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/it/",
+        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/it/"
+    },
+
+
+    {
+        "id": 7,
+        "lang_en": "Dutch",
+        "lang": "Nederlands",
         "code": "nl",
-        "langFlag": "netherlands.svg",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/nl/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/nl/"
     },
 
     {
-        "id": 7,
-        "lang": "Spanish (ES)",
+        "id": 8,
+        "lang_en": "Polish",
+        "lang": "Polski",
+        "code": "pl",
+        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/pl/",
+        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/pl/"
+    },
+
+    {
+        "id": 9,
+        "lang_en": "Spanish (ES)",
+        "lang": "Español (España)",
         "code": "es",
-        "langFlag": "spain.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/es/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/es/"
     },
 
     {
-        "id": 8,
-        "lang": "Spanish (LM)",
+        "id": 10,
+        "lang_en": "Spanish (LM)",
+        "lang": "Español (Latina)",
         "code": "es_419",
-        "langFlag": "latin_america.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/es_419/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/es_419/"
     },
 
     {
-        "id": 9,
-        "lang": "Portuguese (PT)",
+        "id": 11,
+        "lang_en": "Portuguese (PT)",
+        "lang": "Português europeu",
         "code": "pt",
-        "langFlag": "portugal.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/pt/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/pt/"
     },
 
     {
-        "id": 10,
-        "lang": "Portuguese (BR)",
+        "id": 12,
+        "lang_en": "Portuguese (BR)",
+        "lang": "Português do Brasil",
         "code": "pt_BR",
-        "langFlag": "brazil.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/pt_BR/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/pt_BR/"
     },
 
     {
-        "id": 11,
-        "lang": "Russian",
+        "id": 13,
+        "lang_en": "Russian",
+        "lang": "Русский",
         "code": "ru",
-        "langFlag": "russia.svg",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/ru/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/ru/"
     },
 
     {
-        "id": 12,
-        "lang": "Persian",
+        "id": 14,
+        "lang_en": "Ukrainian",
+        "lang": "Українська",
+        "code": "uk",
+        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/uk/",
+        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/uk/"
+    },
+
+    {
+        "id": 15,
+        "lang_en": "Persian",
+        "lang": "فارسی",
         "code": "fa",
-        "langFlag": "iran.png",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/fa/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/fa/"
     }

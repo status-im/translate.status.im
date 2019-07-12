@@ -38,9 +38,9 @@ class LangCard extends Component{
             <div className="card align-center">
                 {postItem !== null
                     ? 
-                    <div>
-                        <img src={require('../images/flags/' + postItem.langFlag)} className="flag" alt={postItem.lang} />
-                        <p className="language-title">{postItem.lang}</p>
+                    <div className="padding-top-20">
+                        <p className="language-title">{postItem.lang_en}</p>
+                        <p className="language-name">{postItem.lang}</p>
                         <a href={postItem.app} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
                         <a href={postItem.website} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im Website Translation" /></p></a>
                     </div>
