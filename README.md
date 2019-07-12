@@ -54,7 +54,7 @@ Please submit a pull request with the requirements below.
 
 1) .json (https://github.com/status-im/translate.status.im/blob/develop/src/components/langs.json)
 
-* For example
+* Example:
 
 ```bash
     {
@@ -67,11 +67,11 @@ Please submit a pull request with the requirements below.
     },
 ```
 
-You can find a language code [here](https://www.w3schools.com/tags/ref_language_codes.asp).
+* You can find a language code [here](https://www.w3schools.com/tags/ref_language_codes.asp).
 
 <br />
 
-2) Submit your pull request [here](https://github.com/status-im/translate.status.im/pulls)
+2) Submit your pull request [here](https://github.com/status-im/translate.status.im/pulls).
 
 <br />
 
