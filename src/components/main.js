@@ -3,6 +3,17 @@ import { FormattedMessage } from 'react-intl';
 import LangData from './langs.json';
 import LangCard from './langcard';
 
+function shuffleArray(array) {
+  let i = array.length - 1;
+  for (; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
+
 class Main extends Component {
   constructor(props) {
     super(props)
@@ -10,7 +21,7 @@ class Main extends Component {
     this.toggleSortLang = this.toggleSortLang.bind(this)
     this.state = {
       cardList: [],
-      isOldestFirst: true
+      isDefault: true
     }
   }
 
@@ -23,7 +34,7 @@ class Main extends Component {
     });
 
     this.setState({
-      cardList: newCardList
+      cardList: newCardList,
     })
   }
 
@@ -35,20 +46,43 @@ class Main extends Component {
     const { cardList } = this.state
     let newCardList = cardList.reverse()
     this.setState({
-      cardList: newCardList
+      cardList: newCardList,
     })
   }
 
   componentDidMount() {
     const cardList = LangData;
+    const shuffledList = shuffleArray(cardList);
     this.setState({
-      isOldestFirst: true,
-      cardList: cardList
+      cardList: cardList,
+      shuffledList: shuffledList
     })
   }
 
   render() {
-    const { cardList } = this.state;
+
+    var langCards = []
+    var { cardList, isDefault } = this.state;
+    if (isDefault) {
+      var shuffledList = shuffleArray(cardList);
+      langCards = shuffledList.map((item, index) => {
+        return <LangCard
+          card={item}
+          key={`car-list-key ${index}`}
+        />
+      })
+      this.setState({
+        isDefault: false
+      })
+    }
+    else {
+      langCards = cardList.map((item, index) => {
+        return <LangCard
+          card={item}
+          key={`car-list-key ${index}`}
+        />
+      })
+    }
 
     return (
 
@@ -61,20 +95,10 @@ class Main extends Component {
           <div className="align-center margin-bottom-20">
             <button className="button" onClick={this.toggleSortLang}><FormattedMessage id="main.sort_alphabetical" defaultMessage="Alphabetical Order" /></button>
             <button className="button" onClick={this.toggleListReverse}><FormattedMessage id="main.sort_reverse" defaultMessage="Reverse Order" /></button>
-          </div>
-
-          
+          </div>       
 
           <div className="languages">
-
-          {cardList.map((item, index) => {
-            return <LangCard
-            card = {item}
-            key={`car-list-key ${index}`}
-            />
-          })}
-
-
+            {langCards}
           </div>
           
           <div>

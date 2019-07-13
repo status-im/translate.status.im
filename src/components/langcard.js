@@ -5,7 +5,7 @@ class LangCard extends Component{
     constructor(props){
         super(props)
         this.state = {
-            cardItem: null
+            cardItem: null,
         }
     }
     
