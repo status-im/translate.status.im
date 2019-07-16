@@ -40,7 +40,7 @@ Each of the languages will be reviewed by a regional ambassadors or other open s
   - [Status public chat](https://get.status.im/chat/public/status-translate)
 
 - **Progress**  
-You can find the progresses on the [translation campaign website](https://translate.status.im/).
+You can find the progresses on the [translation campaign website](https://translate.status.im/). You can help develop the website to show the translation progresses!
 
 - **Merge**  
 If a language is 100% translated and reviewed by the community, we are going to submit a pull request [here](https://github.com/status-im/status.im/pulls) with the translated .yml file. You can directly submit a pull request at the link as well.
