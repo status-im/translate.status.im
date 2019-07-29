@@ -32,6 +32,9 @@ All languages have a different word order and cutural background. Therefore, we 
    - Status.im website:
      - Homepage: https://status.im/
      - Repo: https://github.com/status-im/status.im
+   - Notes:
+     - Please don't translate `Empty` in the project It should be a blank.
+     - Don't hesitate to ask anything in the chat on the right hand side on Lokalise
 
 
 - **Review**  
