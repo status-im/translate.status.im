@@ -90,6 +90,8 @@ Please submit a pull request with the requirements below.
 
 * French : Gwenael NZE DE SOUZA, muten85
 
+* Portuguese(Brazil) : Luana Fragoso, Felipe Plattek 
+
 * Spanish : Lalo
 
 * German : Jurgen Schmiddi
@@ -100,9 +102,8 @@ Please submit a pull request with the requirements below.
 
 * Farsi : Ahmad 
 
-* Portuguese(Brazil) : Luana Fragoso, Felipe Plattek 
 
-
+<br />
 
 ## Translate.status.im Deployment
 
