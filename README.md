@@ -90,6 +90,8 @@ Please submit a pull request with the requirements below.
 
 * French : Gwenael NZE DE SOUZA, muten85
 
+* Spanish : Lalo
+
 * German : Jurgen Schmiddi
 
 * Italian : Davide Mantesso
