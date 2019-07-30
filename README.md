@@ -78,6 +78,29 @@ Please submit a pull request with the requirements below.
 
 <br />
 
+## Contributors
+
+* Korean : Hanjun Ryu, Jay, Donghak Shin, Dongkyu Lee, Cheol O Choi, Jiyoung Lee, Taeseung Lee, Wondeuk Cho
+
+* Chinese : James Huang, Steven Zhu, KrisWooo, 武华森
+
+* Japanese : Jokyash
+
+* Russian : Loran
+
+* French : Gwenael NZE DE SOUZA, muten85
+
+* German : Jurgen Schmiddi
+
+* Italian : Davide Mantesso
+
+* Dutch : Raven Lynx
+
+* Farsi : Ahmad 
+
+* Portuguese(Brazil) : Luana Fragoso, Felipe Plattek 
+
+
 
 ## Translate.status.im Deployment
 
