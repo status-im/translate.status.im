@@ -35,7 +35,8 @@ All languages have a different word order and cutural background. Therefore, we 
    - Notes:
      - Please don't translate `Empty` in the project It should be a blank.
      - Don't hesitate to ask anything in the chat on the right hand side on Lokalise
-
+     - Please take a look at the `unverified` translations first. It means some old translations should be updated.
+       <img src="https://lh3.googleusercontent.com/OPU1M51hYIH9GrQ_RJHi6S9cqvsqD4os_S8Lez2qDAbgz0tj4xoVUZaq0yqsrTKlljw4LScFaeLM_2eYYqtE53BregumcxuMoifswcVDlm51YBwiiOS80Kfaj3UPP5SZbABqjRV9=w2400" width="300">
 
 - **Review**  
 Each of the languages will be reviewed by a regional ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live with Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting) feature. To be a reviewer, contact us through 
