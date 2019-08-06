@@ -47,7 +47,7 @@ Each of the languages will be reviewed by a regional ambassadors or other open s
 You can find the progresses on the [translation campaign website](https://translate.status.im/). The translations of a language will be deployed when they are translated more than 90%.
 
 - **Merge**  
-If a language is 100% translated and reviewed by the community, we are going to submit a pull request [here](https://github.com/status-im/status.im/pulls) with the translated .yml file. You can directly submit a pull request at the link as well.
+If a language is translated more than 90% and reviewed by the community, we are going to submit a pull request [here](https://github.com/status-im/status.im/pulls) with the translated .yml file. You can directly submit a pull request at the link as well.
 
 <br />
 
