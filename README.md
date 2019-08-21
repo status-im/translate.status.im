@@ -2,7 +2,7 @@
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize this secure, censorship-resistant service.
 
-You can translate the Status app and website into your language with [Lokalise](https://lokalise.co/) and find a list of languages that can be translated on this website: https://translate.status.im/.
+You can translate the Status app and website into your language with [Lokalise](https://lokalise.co/) and find a list of languages to translate here: https://translate.status.im/.
 
 <br />
 
