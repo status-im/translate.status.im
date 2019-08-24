@@ -8,6 +8,12 @@ You can translate the Status app and website into your language with [Lokalise](
 
 ## How to help translate?
 
+- **Tutorial video (click)**  
+
+[<img src="https://lh3.googleusercontent.com/7us4vcV44EmMTy7enUCHVtBIxLYjcRub3YqXRxx6IELzE6jrKQsmGmZQR1kq5KNuNlV9Fs3pUhYGb9z2UD_A7kDcJBi1bfuhqyLy5k4ZkcznEMd6eLCBmhOzOznCdwuqUeLgn2tMag=w2400" width="400">](https://youtu.be/BVEwZfi7SmM)
+
+
+
 * Step 1 : Go to the [translation landing page](https://translate.status.im/) and click on a button you would like to translate(e.g. App Translation). You are going to sign up for Lokalise to start the translation.
 
 <img src="https://github.com/status-im/translate.status.im/blob/develop/src/images/lokalise1.png" width="800">
