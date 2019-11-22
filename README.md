@@ -49,9 +49,12 @@ All languages have a different word order and cutural background. Therefore, we 
      
      
 - **Review**  
-Each of the languages will be reviewed by a regional ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live with Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting) feature. To be a reviewer, contact us through 
-  - email: translate@status.im 
-  - [Status public chat](https://get.status.im/chat/public/status-translate)
+All the translations will be reviewd via
+   - Status.im homepage : https://dev-lang.status.im/
+   - Status DApp : apk(Android) or ipa(iOS) [files for testing](https://github.com/status-im/status-react/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+translation) 
+   - Each of the languages will be reviewed by a regional ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live with Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting) feature. To be a reviewer, contact us through 
+      - email: translate@status.im 
+      - [Status public chat](https://get.status.im/chat/public/status-translate)
 
 - **Progress**  
 You can find the progresses on the [translation campaign website](https://translate.status.im/). The translations of a language will be deployed when they are translated more than 90%.
