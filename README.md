@@ -110,11 +110,13 @@ Please submit a pull request with the requirements below.
 
 * German : Jurgen Schmiddi
 
-* Italian : Davide Mantesso
+* Italian : Davide, Enrico, Rachid
 
 * Dutch : Raven Lynx
 
 * Farsi : Ahmad 
+
+* Tagalog : Kenneth
 
 
 <br />
