@@ -1,4 +1,7 @@
 # Translate Status into Your Language
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize this secure, censorship-resistant service.
 
@@ -95,6 +98,18 @@ Please submit a pull request with the requirements below.
 ## Contributors
 
 * Korean : Hanjun Ryu, Jay, Donghak Shin, Dongkyu Lee, Cheol O Choi, Jiyoung Lee, Taeseung Lee, Wondeuk Cho
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/tbenr"><img src="https://avatars2.githubusercontent.com/u/15999009?v=4" width="100px;" alt=""/><br /><sub><b>Enrico Del Fante</b></sub></a><br /><a href="#translation-tbenr" title="Translation">🌍</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 * Chinese : James Huang, Steven Zhu, KrisWooo, 武华森
 
