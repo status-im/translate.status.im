@@ -97,7 +97,7 @@ Please submit a pull request with the requirements below.
 
 ## Contributors
 
-* Korean : Hanjun Ryu, Jay, Donghak Shin, Dongkyu Lee, Cheol O Choi, Jiyoung Lee, Taeseung Lee, Wondeuk Cho
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -110,6 +110,10 @@ Please submit a pull request with the requirements below.
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+And
+
+* Korean : Hanjun Ryu, Jay, Donghak Shin, Dongkyu Lee, Cheol O Choi, Jiyoung Lee, Taeseung Lee, Wondeuk Cho
 
 * Chinese : James Huang, Steven Zhu, KrisWooo, 武华森
 
