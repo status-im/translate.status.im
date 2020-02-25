@@ -111,33 +111,6 @@ Please submit a pull request with the requirements below.
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-And
-
-* Korean : Hanjun Ryu, Jay, Donghak Shin, Dongkyu Lee, Cheol O Choi, Jiyoung Lee, Taeseung Lee, Wondeuk Cho
-
-* Chinese : James Huang, Steven Zhu, KrisWooo, 武华森
-
-* Japanese : Jokyash
-
-* Russian : Loran
-
-* French : Gwenael NZE DE SOUZA, muten85
-
-* Portuguese(Brazil) : Luana Fragoso, Felipe Plattek 
-
-* Spanish : Lalo
-
-* German : Jurgen Schmiddi
-
-* Italian : Davide, Enrico, Rachid
-
-* Dutch : Raven Lynx
-
-* Farsi : Ahmad 
-
-* Tagalog : Kenneth
-
-
 <br />
 
 ## Translate.status.im Deployment
