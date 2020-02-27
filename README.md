@@ -20,15 +20,15 @@ Video (47 seconds) : https://youtu.be/BVEwZfi7SmM
 
 * Step 1 : Go to the [translation landing page](https://translate.status.im/) and click on a button you would like to translate(e.g. App Translation). You are going to sign up for Lokalise to start the translation.
 
-<img src="https://github.com/status-im/translate.status.im/blob/develop/src/images/lokalise1.png" width="800">
+<img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise1.png" width="800">
 
 * Step 2 : You will find the project you applied for. Check out the progress and click the language you would like to translate.
 
-<img src="https://github.com/status-im/translate.status.im/blob/develop/src/images/lokalise2.png" width="800">
+<img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise2.png" width="800">
 
 * Step 3 : There are words and sentences which are used on the Status app or website. Lokalise offers useful online translators (e.g. Google Translatetor) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Just start the translation!
 
-<img src="https://github.com/status-im/translate.status.im/blob/develop/src/images/lokalise3.png" width="800">
+<img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise3.png" width="800">
 
 <br />
 
