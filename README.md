@@ -1,6 +1,6 @@
 # Translate Status into Your Language
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize this secure, censorship-resistant service.
@@ -110,6 +110,9 @@ Please submit a pull request with the requirements below.
     <td align="center"><a href="https://github.com/dantist01"><img src="https://avatars2.githubusercontent.com/u/47658681?v=4" width="100px;" alt=""/><br /><sub><b>dantist01</b></sub></a><br /><a href="#translation-dantist01" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/kberey"><img src="https://avatars0.githubusercontent.com/u/39163694?v=4" width="100px;" alt=""/><br /><sub><b>Ken Crypto Philippines</b></sub></a><br /><a href="#translation-kberey" title="Translation">🌍</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/jinho-jang-4304a0142/"><img src="https://avatars2.githubusercontent.com/u/41753422?v=4" width="100px;" alt=""/><br /><sub><b>Jinho Jang</b></sub></a><br /><a href="#translation-jinhojang6" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Solexplorer"><img src="https://avatars3.githubusercontent.com/u/50027175?v=4" width="100px;" alt=""/><br /><sub><b>Solexplorer</b></sub></a><br /><a href="#translation-Solexplorer" title="Translation">🌍</a></td>
   </tr>
 </table>
 
