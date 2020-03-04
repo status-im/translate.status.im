@@ -1,6 +1,6 @@
 # Translate Status into Your Language
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize this secure, censorship-resistant service.
@@ -115,6 +115,7 @@ Please submit a pull request with the requirements below.
     <td align="center"><a href="https://github.com/Solexplorer"><img src="https://avatars3.githubusercontent.com/u/50027175?v=4" width="100px;" alt=""/><br /><sub><b>Solexplorer</b></sub></a><br /><a href="#translation-Solexplorer" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/LaloGarza"><img src="https://avatars2.githubusercontent.com/u/33364523?v=4" width="100px;" alt=""/><br /><sub><b>LaloGarza</b></sub></a><br /><a href="#translation-LaloGarza" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/enevve"><img src="https://avatars1.githubusercontent.com/u/61705093?v=4" width="100px;" alt=""/><br /><sub><b>Nicolás V. Villarreal</b></sub></a><br /><a href="#translation-enevve" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/LightLeo21"><img src="https://avatars1.githubusercontent.com/u/51802956?v=4" width="100px;" alt=""/><br /><sub><b>LightLeo21</b></sub></a><br /><a href="#translation-LightLeo21" title="Translation">🌍</a></td>
   </tr>
 </table>
 
