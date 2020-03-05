@@ -121,6 +121,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "zplit",
+      "name": "Miguel Morales",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/49013950?v=4",
+      "profile": "http://zplit.net",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
