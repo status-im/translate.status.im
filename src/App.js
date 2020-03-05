@@ -9,6 +9,7 @@ import { addLocaleData, IntlProvider } from 'react-intl';
 import enLocaleData from 'react-intl/locale-data/en';
 import koLocaleData from 'react-intl/locale-data/ko';
 import translations from './i18n/locales';
+import Contributors from './components/contributors';
 
 addLocaleData(enLocaleData);
 addLocaleData(koLocaleData);
@@ -32,6 +33,9 @@ class App extends Component {
           </IntlProvider>
           <IntlProvider locale={locale} messages={messages}>
             <Tutorial />
+          </IntlProvider>
+          <IntlProvider locale={locale} messages={messages}>
+            <Contributors />
           </IntlProvider>
           <IntlProvider locale={locale} messages={messages}>
             <Contacts />

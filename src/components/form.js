@@ -39,27 +39,24 @@ class Form extends Component {
                     Fill all the input fields please.
                 </p>
               }
-        <p><FormattedMessage id="form.contact" defaultMessage="if you have any further questions, feel free to contact us" /></p>
+          <p><FormattedMessage id="form.contact" defaultMessage="if you have any further questions, feel free to contact us" /></p>
               <div>
-          <label htmlFor="name"><FormattedMessage id="form.name" defaultMessage="name" /></label>
+                <label htmlFor="name"><FormattedMessage id="form.name" defaultMessage="name" /></label>
                 <input type="text" name="name" placeholder="Your name" onChange={this.handleChange} />
               </div>
               <div>
-          <label htmlFor="email"><FormattedMessage id="form.email" defaultMessage="email" /></label>
-          <input type="email" name="email" placeholder="Email address" onChange={this.handleChange} />
+                <label htmlFor="email"><FormattedMessage id="form.email" defaultMessage="email" /></label>
+                <input type="email" name="email" placeholder="Email address" onChange={this.handleChange} />
               </div>
               <div>
-          <label htmlFor="message"><FormattedMessage id="form.message" defaultMessage="message" /></label>
-          <input type="text" name="message" placeholder="Your message" onChange={this.handleChange} />
-
+                <label htmlFor="message"><FormattedMessage id="form.message" defaultMessage="message" /></label>
+                <input type="text" name="message" placeholder="Your message" onChange={this.handleChange} />
               </div>
               <div>
-          <p><FormattedMessage id="form.feedback" defaultMessage="Your feedback is always welcome! Thank you very much" /></p>
+                <p><FormattedMessage id="form.feedback" defaultMessage="Your feedback is always welcome! Thank you very much" /></p>
                 <input type="submit" name="submit" value="Send" onClick= {this.handleSubmit} />
-
-              </div>
-              
-            </form>
+              </div>       
+        </form>
     );
   }
 }                      

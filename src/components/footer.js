@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-     
       <footer>
           <h3>Status.im</h3>
           <ul>
@@ -12,7 +11,6 @@ class Footer extends Component {
             <li><a href="https://www.youtube.com/channel/UCFzdJTUdzqyX4e9dOW7UpPQ" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
           </ul>
       </footer>
-      
     );
   }
 }
