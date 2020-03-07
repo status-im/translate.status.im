@@ -21,7 +21,8 @@ class Main extends Component {
     this.toggleSortLang = this.toggleSortLang.bind(this)
     this.state = {
       cardList: [],
-      isDefault: true
+      isDefault: true,
+      progress_by_lang: []
     }
   }
 
@@ -57,17 +58,46 @@ class Main extends Component {
       cardList: cardList,
       shuffledList: shuffledList
     })
+
+    const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
+    const url = "https://api.lokalise.com/api2/projects?filter_team_id=175441"
+    fetch(CORS_PROXY + url, {
+        method: 'GET',
+        cache: 'no-cache',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-Api-Token': 'f1a59805d56f87ef46c2562dcd707f7e45103241',
+            "X-Requested-With": "XMLHttpRequest"
+          },
+    })
+    .then(response => {
+      response.json().then((data) => {
+      const progress_by_lang = [];
+      data['projects'].forEach(project => { 
+        const lang = {};
+        if (project['project_id'] === "562366815b97551836b8f1.55149963" || project['project_id'] === "831920985cf29a3c550a85.62099336") {
+          lang[project.name] = project['statistics']['languages']
+          progress_by_lang.push(lang);
+        }
+      })
+      this.setState({
+        progress_by_lang: progress_by_lang,
+      })
+      console.log(this.state.progress_by_lang)
+      })
+    })
   }
 
   render() {
-
     var langCards = []
-    var { cardList, isDefault } = this.state;
+    var { cardList, isDefault, progress_by_lang } = this.state;
+
     if (isDefault) {
       var shuffledList = shuffleArray(cardList);
       langCards = shuffledList.map((item, index) => {
         return <LangCard
           card={item}
+          progress={progress_by_lang}
           key={`car-list-key ${index}`}
         />
       })
@@ -79,6 +109,7 @@ class Main extends Component {
       langCards = cardList.map((item, index) => {
         return <LangCard
           card={item}
+          progress={progress_by_lang}
           key={`car-list-key ${index}`}
         />
       })

@@ -21,7 +21,6 @@ class App extends Component {
   render() {
     return (
         <div className="container">
-
           <IntlProvider locale={locale} messages={messages}>
             <Nav />
           </IntlProvider>

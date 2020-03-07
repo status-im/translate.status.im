@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
+import { Line } from 'rc-progress';
+
 
 class LangCard extends Component{
     constructor(props){
         super(props)
         this.state = {
             cardItem: null,
+            progress_by_lang: null,
         }
     }
     
@@ -16,9 +19,10 @@ class LangCard extends Component{
     }
 
     setCardStateOnProps() {
-        const { card } = this.props
+        const { card, progress } = this.props
         this.setState({
-            cardItem: card
+            cardItem: card,
+            progress_by_lang: progress
         })
     }
 
@@ -42,6 +46,7 @@ class LangCard extends Component{
                         <p className="language-title">{cardItem.lang_en}</p>
                         <p className="language-name">{cardItem.lang}</p>
                         <a href={cardItem.app} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="App Translation" /></p></a>
+                        <Line percent="10" strokeWidth="4" strokeColor="#2db7f5" style={{ width: '200px'}} />
                         <a href={cardItem.website} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im Website Translation" /></p></a>
                     </div>
                     : ''}

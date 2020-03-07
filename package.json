@@ -9,6 +9,7 @@
     "flag-icon-css": "^3.3.0",
     "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
+    "rc-progress": "^2.5.2",
     "react": "^16.8.6",
     "react-app-polyfill": "^1.0.1",
     "react-dom": "^16.8.6",
