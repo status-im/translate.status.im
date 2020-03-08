@@ -441,6 +441,10 @@ div.languages {
   
 }
 
+.blue-anchor {
+  color: #1890ff !important;
+}
+
 .percent{
   font-family: 'Roboto', sans-serif;
   color: blue;

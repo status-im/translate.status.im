@@ -79,7 +79,7 @@ class Tutorial extends Component {
               </div>
               <div>
                 <div className="margin-bottom-40">
-                    <p><FormattedMessage id="main.before-lokalise" defaultMessage="You can translate the Status app and website into your language with" /> <a href="https://lokalise.co/" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.lokalise" defaultMessage="Lokalise! " /></a>
+                    <p><FormattedMessage id="main.before-lokalise" defaultMessage="You can translate the Status app and website into your language with" /> <a className="blue-anchor" href="https://lokalise.co/" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.lokalise" defaultMessage="Lokalise! " /></a>
                     <FormattedMessage id="main.after-lokalise" defaultMessage="Lokalise automates all the translation workflow and is very easy to use. You can find the simple 3 steps to start the translations as below." /></p>
                 </div>
                 <Steps current={current} onChange={this.onChange}>
@@ -105,7 +105,7 @@ class Tutorial extends Component {
             <div>
               <h3><FormattedMessage id="main.documentation" defaultMessage="Documentation" /></h3>
               <p><FormattedMessage id="main.documentation-explanation" defaultMessage="We will refresh our documentation soon. Stay tunded and we will let you know when we are ready! You can see how our documentation's .md files looks " />
-              <a href="https://github.com/status-im/status.im/blob/develop/source/build_status/desktop.md" target="_blank" rel="noopener noreferrer">
+              <a className="blue-anchor" href="https://github.com/status-im/status.im/blob/develop/source/build_status/desktop.md" target="_blank" rel="noopener noreferrer">
               <FormattedMessage id="main.doc-example" defaultMessage="here" /></a></p>
             </div>
           </section>

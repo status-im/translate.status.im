@@ -52,9 +52,9 @@ class LangCard extends Component{
                     <div className="padding-top-20">
                         <p className="language-title">{cardItem.lang_en}</p>
                         <p className="language-name">{cardItem.lang}</p>
-                        <a href={cardItem.app} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.app-application" defaultMessage="Status app translation" /></p></a>
+                        <p><a href={cardItem.app} target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.app-application" defaultMessage="Status app translation" /></a></p>
                         <Line percent={dapp_progress} strokeWidth="3" trailWidth="3" strokeColor="#2db7f5" style={{ width: '50%'}} /> <span style={{ marginLeft: '20px', fontFamily: 'Roboto'}}>{dapp_progress}%</span>
-                        <a href={cardItem.website} target="_blank" rel="noopener noreferrer"><p><FormattedMessage id="main.website-application" defaultMessage="Status.im website translation" /></p></a>
+                        <p><a href={cardItem.website} target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.website-application" defaultMessage="Status.im website translation" /></a></p>
                         <Line percent={website_progress} strokeWidth="3" trailWidth="3" strokeColor="#2db7f5" style={{ width: '50%'}} /> <span style={{ marginLeft: '20px', fontFamily: 'Roboto'}}>{website_progress}%</span>
                     </div>
                     : ''}
