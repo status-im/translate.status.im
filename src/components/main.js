@@ -42,10 +42,16 @@ class Main extends Component {
   }
 
   toggleSortLang(event) {
+    this.setState({
+      isDefault: false
+    })
     this.sortByLang();
   }
 
   toggleListReverse(event) {
+    this.setState({
+      isDefault: false
+    })
     const { cardList } = this.state
     let newCardList = cardList.reverse()
     this.setState({
@@ -86,7 +92,7 @@ class Main extends Component {
         progress_by_lang: progress_by_lang,
         loading: false,
       })
-      console.log(this.state.progress_by_lang)
+      // console.log(this.state.progress_by_lang)
       })
     })
   }
@@ -104,9 +110,6 @@ class Main extends Component {
             progress={progress_by_lang}
             key={`car-list-key ${index}`}
           />
-        })
-        this.setState({
-          isDefault: false
         })
       }
     }
