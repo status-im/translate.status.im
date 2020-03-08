@@ -24,7 +24,7 @@ var messages = translations[locale];
 class App extends Component {
   render() {
     return (
-        <div className="container">
+        <div id="main" className="container">
           <IntlProvider locale={locale} messages={messages}>
             <Nav />
           </IntlProvider>
@@ -51,9 +51,6 @@ class App extends Component {
               </IntlProvider>              
             </TabPane>            
           </Tabs>
-
-
-
           <IntlProvider locale={locale} messages={messages}>
             <Footer />
           </IntlProvider>
