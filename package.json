@@ -19,6 +19,7 @@
     "react-intl.macro": "^0.3.6",
     "react-scripts": "3.0.0",
     "react-scrollable-anchor": "^0.6.1",
+    "react-spinners": "^0.8.1",
     "redux": "^4.0.1"
   },
   "scripts": {

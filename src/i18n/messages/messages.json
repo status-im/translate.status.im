@@ -120,11 +120,6 @@
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.tracklanguage",
-    "defaultMessage": "Track the translation progress",
-    "filepath": "src/components/main.js"
-  },
-  {
     "id": "main.app-translation",
     "defaultMessage": "Status app translation",
     "filepath": "src/components/main.js"
