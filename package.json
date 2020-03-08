@@ -5,6 +5,7 @@
   "homepage": "https://translate.status.im",
   "dependencies": {
     "@lokalise/node-api": "0.0.8",
+    "antd": "^4.0.1",
     "express": "^4.16.4",
     "flag-icon-css": "^3.3.0",
     "gh-pages": "^2.0.1",

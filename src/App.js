@@ -10,6 +10,10 @@ import enLocaleData from 'react-intl/locale-data/en';
 import koLocaleData from 'react-intl/locale-data/ko';
 import translations from './i18n/locales';
 import Contributors from './components/contributors';
+import { Tabs } from 'antd';
+import 'antd/lib/tabs/style/index.css';
+
+const { TabPane } = Tabs;
 
 addLocaleData(enLocaleData);
 addLocaleData(koLocaleData);
@@ -30,15 +34,26 @@ class App extends Component {
           <IntlProvider locale={locale} messages={messages}>
             <Main />
           </IntlProvider>
-          <IntlProvider locale={locale} messages={messages}>
-            <Tutorial />
-          </IntlProvider>
-          <IntlProvider locale={locale} messages={messages}>
-            <Contributors />
-          </IntlProvider>
-          <IntlProvider locale={locale} messages={messages}>
-            <Contacts />
-          </IntlProvider>
+          <Tabs defaultActiveKey="1">
+            <TabPane tab="Contributors" key="1">
+              <IntlProvider locale={locale} messages={messages}>
+                <Contributors />
+              </IntlProvider>              
+            </TabPane>
+            <TabPane tab="How to contribute" key="2">
+              <IntlProvider locale={locale} messages={messages}>
+                <Tutorial />
+              </IntlProvider>              
+            </TabPane>
+            <TabPane tab="Contacts" key="3">
+              <IntlProvider locale={locale} messages={messages}>
+                <Contacts />
+              </IntlProvider>              
+            </TabPane>            
+          </Tabs>
+
+
+
           <IntlProvider locale={locale} messages={messages}>
             <Footer />
           </IntlProvider>

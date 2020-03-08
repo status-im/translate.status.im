@@ -150,7 +150,7 @@ class Main extends Component {
             {langCards}
           </div>
           <div>
-              <div className="align-center">
+              <div className="align-center" style={{ margin: '30px 0 50px 0' }}>
                 <p><FormattedMessage id="main.addlanguage" defaultMessage="Want to add your Language?" />
                 <FormattedMessage id="main.checkoutthis" defaultMessage="Check out this" />
                 <a href="https://github.com/status-im/translate.status.im/blob/develop/README.md#translation-guidelines" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest-link" defaultMessage="translation guidelines" /></a>
