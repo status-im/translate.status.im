@@ -221,7 +221,7 @@
   },
   {
     "id": "main.documentation-explanation",
-    "defaultMessage": "We will refresh our documentation soon. Stay tunded and we will let you know when we are ready! You can see how our documentation's .md files look like",
+    "defaultMessage": "We will refresh our documentation soon. Stay tunded and we will let you know when we are ready! You can see how our documentation's .md files looks",
     "filepath": "src/components/tutorial.js"
   },
   {

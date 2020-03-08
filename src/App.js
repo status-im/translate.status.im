@@ -34,7 +34,7 @@ class App extends Component {
           <IntlProvider locale={locale} messages={messages}>
             <Main />
           </IntlProvider>
-          <Tabs defaultActiveKey="1">
+          <Tabs defaultActiveKey="2">
             <TabPane tab="Contributors" key="1">
               <IntlProvider locale={locale} messages={messages}>
                 <Contributors />
@@ -43,7 +43,7 @@ class App extends Component {
             <TabPane tab="How to contribute" key="2">
               <IntlProvider locale={locale} messages={messages}>
                 <Tutorial />
-              </IntlProvider>              
+              </IntlProvider>
             </TabPane>
             <TabPane tab="Contacts" key="3">
               <IntlProvider locale={locale} messages={messages}>

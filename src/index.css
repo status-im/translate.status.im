@@ -10,10 +10,6 @@ body {
   margin: 0;
 }
 
-body * {
-  transition: all 0.300s ease-in-out;
-}
-
 .lokalise-img {
   text-align: center;
 }
@@ -27,7 +23,13 @@ body * {
 
 main a:link, main a:visited {
   text-decoration: none;
-  color: #4360DF;
+  color: rgb(151, 151, 151);
+}
+
+main a:hover {
+  color: rgb(92, 94, 255) !important;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 header a:link, header a:visited {
@@ -283,9 +285,14 @@ header div.head {
   color: #222;
 }
 
-header strong{
+header strong {
   font-weight: bold;
   color: #4360DF;
+}
+
+header a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 
@@ -373,7 +380,6 @@ main section h3 {
 
 main section div {
   position: relative;
-  margin-top: 30px;
 }
 
 main section div p {
@@ -385,6 +391,31 @@ main div p{
   font-size: 1.3rem;
 }
 
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+  background-color: #fafafa;
+  height: 680px;
+  text-align: center;
+}
+
+.image-size {
+  height: 550px;
+}
+
+.last-image-size {
+  width: 85%;
+  height: auto;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+
+.ant-btn {
+  width: 120px;
+}
 
  /*------------- countries -------------------*/
 
@@ -611,6 +642,13 @@ footer ul {
 
  /*------------- Responsive -------------------*/
 
+ @media (min-width:1700px) {
+  .last-image-size {
+    width: auto;
+    height: 550px;
+  }
+ }
+
 @media (min-width:1100px) {
 
     header div.head h1 {
@@ -664,12 +702,23 @@ footer ul {
 }
 
 @media (max-width:1200px) {
+
   .social-margin {
     width: 300px;
   }
+
   .logo {
     margin-left: 35px;
   }
+
+  .image-size {
+    height: 500px;
+  }
+
+  .steps-content {
+    height: 670px;
+  }
+
 }
 
 
@@ -737,6 +786,15 @@ footer ul {
   header div.head h1 {
     font-size: 3rem;
   }
+
+  .image-size {
+    width: 80%;
+    height: auto;
+  }
+
+  .steps-content {
+    height: 580px;
+  }
   
   main section {
     width: 90%;
@@ -780,6 +838,15 @@ footer ul {
 
   .logo {
     margin-left: 20px;
+  }
+
+  .image-size {
+    width: 90%;
+    height: auto;
+  }
+
+  .steps-content {
+    height: 420px;
   }
 
   .ant-tabs-nav-scroll {
