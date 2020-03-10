@@ -67,7 +67,7 @@ class Main extends Component {
       shuffledList: shuffledList
     })
 
-    const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
+    const CORS_PROXY = "https://cors-fix.status.im/";
     const url = "https://api.lokalise.com/api2/projects?filter_team_id=175441"
     fetch(CORS_PROXY + url, {
         method: 'GET',
@@ -154,8 +154,8 @@ class Main extends Component {
                 <p><FormattedMessage id="main.addlanguage" defaultMessage="Want to add your Language?" />
                 <FormattedMessage id="main.checkoutthis" defaultMessage="Check out this" />
                 <a className="blue-anchor" href="https://github.com/status-im/translate.status.im/blob/develop/README.md#translation-guidelines" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest-link" defaultMessage="translation guidelines" /></a>
-                <FormattedMessage id="main.and" defaultMessage="and" /></p>
-                <p><a href="https://github.com/status-im/translate.status.im" className="blue-anchor" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest" defaultMessage="Submit a pull request to this Github repository" /></a></p>
+                <FormattedMessage id="main.or" defaultMessage="or" /></p>
+                <p><a href="mailto:translate@status.im" className="blue-anchor" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.contactus" defaultMessage="Contact us!" /></a></p>
               </div> <br /><br />
           </div>
         </main>

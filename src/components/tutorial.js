@@ -73,7 +73,7 @@ class Tutorial extends Component {
         <ScrollableAnchor id={'tutorial'}>
           <section>
               <h2><FormattedMessage id="main.how-to-contribute" defaultMessage="How to Contribute?" /></h2>          
-            <div>
+              <div>
               <div>
                 <h3><FormattedMessage id="main.app-and-website" defaultMessage="App and Website" /></h3>
               </div>
@@ -88,18 +88,18 @@ class Tutorial extends Component {
                   ))}
                 </Steps>                
                 <div className="steps-content">{steps[current].content}</div>
-        <div className="steps-action">
-          {current < steps.length - 1 && (
-            <Button type="primary" onClick={() => this.next()}>
-              Next
-            </Button>
-          )}
-          {current > 0 && (
-            <Button style={{ marginLeft: 8 }} onClick={() => this.prev()}>
-              Previous
-            </Button>
-          )}
-        </div>
+                <div className="steps-action">
+                  {current < steps.length - 1 && (
+                    <Button type="primary" onClick={() => this.next()}>
+                      Next
+                    </Button>
+                  )}
+                  {current > 0 && (
+                    <Button style={{ marginLeft: 8 }} onClick={() => this.prev()}>
+                      Previous
+                    </Button>
+                  )}
+                </div>
               </div>
             </div>
             <div>

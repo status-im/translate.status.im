@@ -65,15 +65,6 @@
 
     {
         "id": 8,
-        "lang_en": "Polish",
-        "lang": "Polski",
-        "code": "pl",
-        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/pl/",
-        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/pl/"
-    },
-
-    {
-        "id": 9,
         "lang_en": "Spanish (ES)",
         "lang": "Español (España)",
         "code": "es",
@@ -82,7 +73,7 @@
     },
 
     {
-        "id": 10,
+        "id": 9,
         "lang_en": "Spanish (LatAm)",
         "lang": "Español (Latina)",
         "code": "es_419",
@@ -91,7 +82,7 @@
     },
 
     {
-        "id": 11,
+        "id": 10,
         "lang_en": "Portuguese (PT)",
         "lang": "Português europeu",
         "code": "pt",
@@ -100,7 +91,7 @@
     },
 
     {
-        "id": 12,
+        "id": 11,
         "lang_en": "Portuguese (BR)",
         "lang": "Português do Brasil",
         "code": "pt_BR",
@@ -109,7 +100,7 @@
     },
 
     {
-        "id": 13,
+        "id": 12,
         "lang_en": "Russian",
         "lang": "Русский",
         "code": "ru",
@@ -118,16 +109,7 @@
     },
 
     {
-        "id": 14,
-        "lang_en": "Ukrainian",
-        "lang": "Українська",
-        "code": "uk",
-        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/uk/",
-        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/uk/"
-    },
-
-    {
-        "id": 15,
+        "id": 13,
         "lang_en": "Persian",
         "lang": "فارسی",
         "code": "fa",
@@ -136,7 +118,7 @@
     },
 
     {
-        "id": 16,
+        "id": 14,
         "lang_en": "Thai",
         "lang": "ไทย",
         "code": "th",
@@ -145,7 +127,7 @@
     },
 
     {
-        "id": 17,
+        "id": 15,
         "lang_en": "Arabic",
         "lang": "العربية",
         "code": "ar",
@@ -154,16 +136,7 @@
     },
 
     {
-        "id": 18,
-        "lang_en": "Vietnamese",
-        "lang": "Tiếng Việt",
-        "code": "vi",
-        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/vi/",
-        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/vi/"
-    },
-
-    {
-        "id": 19,
+        "id": 16,
         "lang_en": "Tagalog",
         "lang": "Wikang Tagalog",
         "code": "tl",
@@ -172,7 +145,7 @@
     },
 
     {
-        "id": 20,
+        "id": 17,
         "lang_en": "Indonesian",
         "lang": "Bahasa Indonesia",
         "code": "id",

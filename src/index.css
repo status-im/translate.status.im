@@ -396,12 +396,12 @@ main div p{
   border: 1px dashed #e9e9e9;
   border-radius: 2px;
   background-color: #fafafa;
-  height: 680px;
+  height: 600px;
   text-align: center;
 }
 
 .image-size {
-  height: 550px;
+  height: 480px;
 }
 
 .last-image-size {
@@ -703,6 +703,11 @@ footer ul {
   .ant-tabs-nav .ant-tabs-tab {
     margin: 0 50px 0 0 !important;
   }
+
+  .ant-tabs-ink-bar {
+    background-color: white !important;
+  }
+
 }
 
 @media (max-width:1200px) {
@@ -716,11 +721,11 @@ footer ul {
   }
 
   .image-size {
-    height: 500px;
+    height: 450px;
   }
 
   .steps-content {
-    height: 670px;
+    height: 580px;
   }
 
 }

@@ -7,7 +7,6 @@ import Contacts from "./components/contacts";
 import Footer from "./components/footer";
 import { addLocaleData, IntlProvider } from 'react-intl';
 import enLocaleData from 'react-intl/locale-data/en';
-import koLocaleData from 'react-intl/locale-data/ko';
 import translations from './i18n/locales';
 import Contributors from './components/contributors';
 import { Tabs } from 'antd';
@@ -16,9 +15,8 @@ import 'antd/lib/tabs/style/index.css';
 const { TabPane } = Tabs;
 
 addLocaleData(enLocaleData);
-addLocaleData(koLocaleData);
 
-var locale = navigator.userLanguage || (navigator.languages.slice(0, 2) && navigator.languages[0].slice(0,2)) || "en";;
+var locale = "en";;
 var messages = translations[locale];
 
 class App extends Component {
