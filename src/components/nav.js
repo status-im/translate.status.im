@@ -25,7 +25,7 @@ class Nav extends Component {
             <a href=".">
               <img src={require('../images/status-network-logo.svg')} className='logo' alt="Status Logo"/>
             </a>
-          </div>
+          </div >
           <Menu right disableAutoFocus pageWrapId={ "nav" } outerContainerId={ "main" } isOpen={ isOpen } >
             <a href="https://github.com/status-im/translate.status.im#how-to-help-translate" target="_blank" rel="noopener noreferrer" onClick={() => this.closeNav()}>
               <FormattedMessage id="nav.how-to-contribute" defaultMessage="How to contribute" />
@@ -34,7 +34,7 @@ class Nav extends Component {
               <FormattedMessage id="nav.contributors" defaultMessage="Contributors" />
             </a>
             <a href="https://statusnetwork.com/" target="_blank" rel="noopener noreferrer" onClick={() => this.closeNav()}>
-                <FormattedMessage id="nav.home" defaultMessage="The Status Network" />
+                <FormattedMessage id="nav.aboutus" defaultMessage="About us" />
             </a>
             <a href="https://github.com/status-im" target="_blank" rel="noopener noreferrer" onClick={() => this.closeNav()}>
                 <FormattedMessage id="nav.github" defaultMessage="Github" />

@@ -3,9 +3,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Status is completely open source and made by contributors all over the world. Your translations can help more people utilize this secure, censorship-resistant service.
+Status is completely open source and made by contributors all over the world. Your translations can help more people utilize our secure, censorship-resistant service!
 
-You can translate the Status app and website into your language with [Lokalise](https://lokalise.co/) and find a list of languages to translate here: https://translate.status.im/.
+We use [Lokalise](https://lokalise.co/) to translate the Status app and website into multiple languages. Find the list of languages to translate here: https://translate.status.im/.
 
 <br />
 
@@ -18,15 +18,15 @@ You can translate the Status app and website into your language with [Lokalise](
 Video (47 seconds) : https://youtu.be/BVEwZfi7SmM
 
 
-* Step 1 : Go to the [translation landing page](https://translate.status.im/) and click on a button you would like to translate(e.g. App Translation). You are going to sign up for Lokalise to start the translation.
+* Step 1 : Go to the [translation landing page](https://translate.status.im/) and click a link you would like to translate(e.g. Status app translation). You nedd to sign up for Lokalise to get your work started.
 
 <img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise1.png" width="800">
 
-* Step 2 : You will find the project you applied for. Check out the progress and click the language you would like to translate.
+* Step 2 : You will find a project that needs your help. Check out the progress and click 'WORDS TO DO (new words)` or 'UNVERIFIED (updated words)'.
 
 <img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise2.png" width="800">
 
-* Step 3 : There are words and sentences which are used on the Status app or website. Lokalise offers useful online translators (e.g. Google Translatetor) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Just start the translation!
+* Step 3 : Lokalise offers useful online translators (e.g. Google Translatetor) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Let's get it started!
 
 <img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise3.png" width="800">
 
@@ -35,42 +35,36 @@ Video (47 seconds) : https://youtu.be/BVEwZfi7SmM
 ## Translation Guidelines
 
 - **Translation**  
-All languages have a different word order and cutural background. Therefore, we encourage you to translate all the words and sentences into your language in comparison with the actual DApp, website, and etc. Also, you need to be careful when using the online translators that Lokalise offers. For example, [Status](https://dictionary.cambridge.org/dictionary/english/status) itself is an English word so there could be some incorrect translations by the online translators. Please review all the translations carefully before you start translations.
+All languages have a different word order and cutural background. Therefore, we encourage you to translate all the words and sentences into your language in comparison with the actual Status DApp and website. Also, you need to be careful when using the online translators that Lokalise offers. For example, [Status](https://dictionary.cambridge.org/dictionary/english/status) itself is an English word so it sometimes recognize Status as the English word `status` . Please review all the translations carefully after you make some changes.
    - Status DApp
      - Donwload: https://status.im/get/
-     - Language files: https://github.com/status-im/status-react/tree/develop/translations
+     - Languages: https://github.com/status-im/status-react/tree/develop/translations
    - Status.im website:
      - Homepage: https://status.im/
      - Repo: https://github.com/status-im/status.im
    - Notes:
      - Please don't translate `Empty` in the project It should be a blank.
-     - Don't hesitate to ask anything in the chat on the right hand side on Lokalise
-     - Check out `unverified` translations first. It means some oudated translations need to be updated.
+     - Check out the `unverified` translation first. It means some outdated translations need your updates.
        <img src="https://lh3.googleusercontent.com/OPU1M51hYIH9GrQ_RJHi6S9cqvsqD4os_S8Lez2qDAbgz0tj4xoVUZaq0yqsrTKlljw4LScFaeLM_2eYYqtE53BregumcxuMoifswcVDlm51YBwiiOS80Kfaj3UPP5SZbABqjRV9=w2400" width="300">
-     - You can ask questions through a project chat at the top-right corner.
-       <img src="https://lh3.googleusercontent.com/MDjalv5PFSfd0vfRIOyzXnRtKhs9ZyWP7BLR6_u1sP7mEIXmd8zT6g1pUThyR0lXGs_NgDNwpVG9WCm6d2JdFzQvp6Y2df2TZPy9pECAmls78LkqFpZEMz6Cqoaa_oqeUC3s0Gpc1g=w2400" width="300">     
      
      
 - **Review**  
-All the translations will be reviewd via
+All the translations will be reviewed via dev links
    - Status.im homepage : https://dev-lang.status.im/
-   - Status DApp : apk(Android) or ipa(iOS) [files for testing](https://github.com/status-im/status-react/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+translation) 
-   - Each of the languages will be reviewed by a regional ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live with Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting) feature. To be a reviewer, contact us through 
+   - Status DApp : apk(Android) or ipa(iOS) [files for testing purposes](https://github.com/status-im/status-react/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+translation) 
+   - Your translatoins will be reviewed by other ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live through the Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting). To be a reviewer, 
       - email: translate@status.im 
       - [Status public chat](https://get.status.im/chat/public/status-translate)
 
 - **Progress**  
-You can find the progresses on the [translation campaign website](https://translate.status.im/). The translations of a language will be deployed when they are translated more than 90%.
-
-- **Merge**  
-If a language is translated more than 90% and reviewed by the community, we are going to submit a pull request [here](https://github.com/status-im/status.im/pulls) with the translated .yml file. You can directly submit a pull request at the link as well.
+You can find the progresses on the [translation campaign website](https://translate.status.im/). Your translation will be applied if it is completed more than 90%.
 
 <br />
 
 
-## How to add a Language?
+## How can I add a Language?
 
-Please submit a pull request with the requirements below.
+Please submit a pull request in accordance with the format below.
 
 1) Add your language in langs.json (https://github.com/status-im/translate.status.im/blob/develop/src/components/langs.json)
 
@@ -128,9 +122,7 @@ Please submit a pull request with the requirements below.
 
 <br />
 
-## Translate.status.im Deployment
-
-[Node](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) need to be installed before.
+## Build Translate.status.im
 
 ```bash
 git clone https://github.com/status-im/translate.status.im.git
@@ -156,3 +148,12 @@ yarn run start
 
 * https://ci.status.im/job/misc/job/translate.status.im/
 * https://ci.status.im/job/misc/job/dev-translate.status.im/
+
+
+## Exctract messages 
+```
+yarn extract:messages
+yarn manage:translations
+
+Learn more at https://maksimivanov.com/posts/how-to-localize-react-application-using-react-intl/
+```

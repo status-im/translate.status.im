@@ -61,7 +61,7 @@
   },
   {
     "id": "header.status-explanation-2",
-    "defaultMessage": "Your translations can help more people utilize this secure, censorship-resistant service",
+    "defaultMessage": "Your translations can help more people utilize our secure, censorship-resistant service",
     "filepath": "src/components/header.js"
   },
   {
@@ -71,12 +71,12 @@
   },
   {
     "id": "main.app-application",
-    "defaultMessage": "App Translation",
+    "defaultMessage": "Status app translation",
     "filepath": "src/components/langcard.js"
   },
   {
     "id": "main.website-application",
-    "defaultMessage": "Status.im Website Translation",
+    "defaultMessage": "Status.im website translation",
     "filepath": "src/components/langcard.js"
   },
   {
@@ -110,28 +110,28 @@
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.and",
-    "defaultMessage": "and",
+    "id": "main.or",
+    "defaultMessage": "or",
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.pullrequest",
-    "defaultMessage": "Submit a pull request to this Github repository",
+    "id": "main.contactus",
+    "defaultMessage": "Contact us!",
     "filepath": "src/components/main.js"
   },
   {
-    "id": "main.app-translation",
-    "defaultMessage": "Status app translation",
-    "filepath": "src/components/main.js"
+    "id": "nav.how-to-contribute",
+    "defaultMessage": "How to contribute",
+    "filepath": "src/components/nav.js"
   },
   {
-    "id": "main.website-translation",
-    "defaultMessage": "Status.im website translation",
-    "filepath": "src/components/main.js"
+    "id": "nav.contributors",
+    "defaultMessage": "Contributors",
+    "filepath": "src/components/nav.js"
   },
   {
-    "id": "nav.home",
-    "defaultMessage": "Home",
+    "id": "nav.aboutus",
+    "defaultMessage": "About us",
     "filepath": "src/components/nav.js"
   },
   {
@@ -143,6 +143,46 @@
     "id": "nav.blog",
     "defaultMessage": "Blog",
     "filepath": "src/components/nav.js"
+  },
+  {
+    "id": "main.step1",
+    "defaultMessage": "Step 1 :",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.step1-1",
+    "defaultMessage": "In the language cards above, click a link you want to contribute (e.g. Status app translation) and sign up for Lokalise.",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.step2",
+    "defaultMessage": "Step 2 :",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.step2-1",
+    "defaultMessage": "You will find a project that needs your help. Check out the progress and click 'WORDS TO DO (new words)` or 'UNVERIFIED (updated words)'.",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.step3",
+    "defaultMessage": "Step 3 :",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.step3-1",
+    "defaultMessage": "Read this",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.pullrequest-link",
+    "defaultMessage": "translation guidelines",
+    "filepath": "src/components/tutorial.js"
+  },
+  {
+    "id": "main.andstart",
+    "defaultMessage": "and let's get it started!",
+    "filepath": "src/components/tutorial.js"
   },
   {
     "id": "main.how-to-contribute",
@@ -167,66 +207,6 @@
   {
     "id": "main.after-lokalise",
     "defaultMessage": "Lokalise automates all the translation workflow and is very easy to use. You can find the simple 3 steps to start the translations as below.",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.step1",
-    "defaultMessage": "Step 1 :",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.step1-1",
-    "defaultMessage": "Click on the button you want to translate (e.g. App Translation) and sign up for Lokalise. It takes less than 1 minute.",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.step2",
-    "defaultMessage": "Step 2 :",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.step2-1",
-    "defaultMessage": "You will find the project you applied for. Check out the progress and click the language you would like to translate.",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.step3",
-    "defaultMessage": "Step 3 :",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.step3-1",
-    "defaultMessage": "There are words and sentences which are used on the Status app or website. Lokalise offers useful online translators (e.g. Google Translate) showing suggestions for each of the strings and safely protects variables or string interpolation components that should not be translated. Read this",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.pullrequest-link",
-    "defaultMessage": "translation guidelines",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.andstart",
-    "defaultMessage": "and let's get it started!",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.finished",
-    "defaultMessage": "That's all. Your passion for the private, secure and censorship-resistant communications will help build a better world that everyone can say what they want to say with Status.",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.documentation",
-    "defaultMessage": "Documentation",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.documentation-explanation",
-    "defaultMessage": "We will refresh our documentation soon. Stay tunded and we will let you know when we are ready! You can see how our documentation's .md files looks",
-    "filepath": "src/components/tutorial.js"
-  },
-  {
-    "id": "main.doc-example",
-    "defaultMessage": "here",
     "filepath": "src/components/tutorial.js"
   }
 ]

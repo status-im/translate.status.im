@@ -12,7 +12,7 @@ const steps = [
     title: 'Step 1',
     content: 
     <div className="margin-bottom-40">
-      <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.step1-1" defaultMessage="Click on the button you want to translate (e.g. App Translation) and sign up for Lokalise. It takes less than 1 minute." /></p>
+      <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.step1-1" defaultMessage="In the language cards above, click a link you want to contribute (e.g. Status app translation) and sign up for Lokalise." /></p>
       <div className="lokalise-img">
         <img src={require("../images/lokalise1.png")} className="image-size" alt="Lokalise Sign up" ></img><br /><br /><br />                 
       </div>               
@@ -22,7 +22,7 @@ const steps = [
     title: 'Step 2',
     content: 
     <div className="margin-bottom-40">
-      <p><b><FormattedMessage id="main.step2" defaultMessage="Step 2 : " /></b><FormattedMessage id="main.step2-1" defaultMessage="You will find the project you applied for. Check out the progress and click the language you would like to translate." /></p>
+      <p><b><FormattedMessage id="main.step2" defaultMessage="Step 2 : " /></b><FormattedMessage id="main.step2-1" defaultMessage="You will find a project that needs your help. Check out the progress and click 'WORDS TO DO (new words)` or 'UNVERIFIED (updated words)'." /></p>
       <div className="lokalise-img">
         <img src={require("../images/lokalise2.png")} className="image-size" alt="Example Lokalise Usage" ></img>
       </div>
@@ -32,8 +32,8 @@ const steps = [
     title: 'Step 3',
     content: 
     <div className="margin-bottom-40">
-      <p><b><FormattedMessage id="main.step3" defaultMessage="Step 3 : " /></b><FormattedMessage id="main.step3-1" defaultMessage="There are words and sentences which are used on the Status app or website. Read this" />
-      <a href="https://github.com/status-im/translate.status.im/blob/develop/README.md#translation-guidelines" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest-link" defaultMessage="translation guidelines" /></a>
+      <p><b><FormattedMessage id="main.step3" defaultMessage="Step 3 : " /></b><FormattedMessage id="main.step3-1" defaultMessage="Read this" />
+      <a className="blue-anchor" href="https://github.com/status-im/translate.status.im/blob/develop/README.md#translation-guidelines" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.pullrequest-link" defaultMessage="translation guidelines" /></a>
       <FormattedMessage id="main.andstart" defaultMessage="and let's get it started!" />
       </p>                  
       <div className="lokalise-img">
@@ -86,8 +86,7 @@ class Tutorial extends Component {
                   {steps.map(item => (
                     <Step key={item.title} title={item.title} />
                   ))}
-                </Steps>                
-                <div className="steps-content">{steps[current].content}</div>
+                </Steps>
                 <div className="steps-action">
                   {current < steps.length - 1 && (
                     <Button type="primary" onClick={() => this.next()}>
@@ -99,14 +98,9 @@ class Tutorial extends Component {
                       Previous
                     </Button>
                   )}
-                </div>
+                </div>            
+                <div className="steps-content">{steps[current].content}</div>
               </div>
-            </div>
-            <div>
-              <h3><FormattedMessage id="main.documentation" defaultMessage="Documentation" /></h3>
-              <p><FormattedMessage id="main.documentation-explanation" defaultMessage="We will refresh our documentation soon. Stay tunded and we will let you know when we are ready! You can see how our documentation's .md files looks " />
-              <a className="blue-anchor" href="https://github.com/status-im/status.im/blob/develop/source/build_status/desktop.md" target="_blank" rel="noopener noreferrer">
-              <FormattedMessage id="main.doc-example" defaultMessage="here" /></a></p>
             </div>
           </section>
         </ScrollableAnchor>        
