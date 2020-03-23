@@ -38,9 +38,12 @@ class LangCard extends Component{
 
     render(){
         const { cardItem, progress_by_lang } = this.state
+        console.log(progress_by_lang)
         let dapp_progress = 0
         let website_progress = 0
-        if ((typeof(progress_by_lang) !== 'undefined') && (progress_by_lang !== null)) {
+        
+        if ((typeof(progress_by_lang) !== 'undefined') && (progress_by_lang !== null) && 
+            progress_by_lang[0]['Status DApp'].filter(ele => ele['language_iso'] === cardItem.code)[0] !== undefined) {
             dapp_progress = progress_by_lang[0]['Status DApp'].filter(ele => ele['language_iso'] === cardItem.code)[0]['progress']
             website_progress = progress_by_lang[1]['Status.im Website'].filter(ele => ele['language_iso'] === cardItem.code)[0]['progress']
         }
