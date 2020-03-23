@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Line } from 'rc-progress';
 
+const getProgressForLang = (progressLang, lang) => {
+  let rval = progressLang.find(v => v['language_iso'] === lang)
+  return rval === undefined ? 0 : (rval['progress'] || 0)
+}
 
 class LangCard extends Component{
     constructor(props){
@@ -40,11 +44,10 @@ class LangCard extends Component{
         const { cardItem, progress_by_lang } = this.state
         let dapp_progress = 0
         let website_progress = 0
-        if ((typeof(progress_by_lang) !== 'undefined') && (progress_by_lang !== null)) {
-            dapp_progress = progress_by_lang[0]['Status DApp'].filter(ele => ele['language_iso'] === cardItem.code)[0]['progress']
-            website_progress = progress_by_lang[1]['Status.im Website'].filter(ele => ele['language_iso'] === cardItem.code)[0]['progress']
+        if ((typeof(progress_by_lang) !== 'undefined') && (progress_by_lang !== null) && (progress_by_lang.length !== 0)) {
+            dapp_progress = getProgressForLang(progress_by_lang[0]['Status DApp'], cardItem.code)
+            website_progress = getProgressForLang(progress_by_lang[1]['Status.im Website'], cardItem.code)
         }
-
         return (
             <div className="card align-center">
                 {cardItem !== null
