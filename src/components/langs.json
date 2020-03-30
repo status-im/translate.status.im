@@ -169,6 +169,15 @@
         "code": "zh_TW",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/zh_TW/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/zh_TW/"
+    },
+
+    {
+        "id": 20,
+        "lang_en": "Turkish",
+        "lang": "Türkçe",
+        "code": "tr",
+        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/tr/",
+        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/tr/"
     }
 
 ]
