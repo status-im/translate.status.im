@@ -1,6 +1,6 @@
 # Translate Status into Your Language
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize our secure, censorship-resistant service!
@@ -113,6 +113,9 @@ Please submit a pull request in accordance with the format below.
     <td align="center"><a href="https://github.com/Jokyash"><img src="https://avatars1.githubusercontent.com/u/44118299?v=4" width="100px;" alt=""/><br /><sub><b>Jokyash</b></sub></a><br /><a href="#translation-Jokyash" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/wdcho82"><img src="https://avatars0.githubusercontent.com/u/61836410?v=4" width="100px;" alt=""/><br /><sub><b>wdcho82</b></sub></a><br /><a href="#translation-wdcho82" title="Translation">🌍</a></td>
     <td align="center"><a href="http://zplit.net"><img src="https://avatars2.githubusercontent.com/u/49013950?v=4" width="100px;" alt=""/><br /><sub><b>Miguel Morales</b></sub></a><br /><a href="#translation-zplit" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/mercuriosilber"><img src="https://avatars2.githubusercontent.com/u/35112265?v=4" width="100px;" alt=""/><br /><sub><b>mercuriosilber</b></sub></a><br /><a href="#translation-mercuriosilber" title="Translation">🌍</a></td>
   </tr>
 </table>
 
