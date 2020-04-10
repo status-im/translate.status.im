@@ -18,7 +18,7 @@ We use [Lokalise](https://lokalise.co/) to translate the Status app and website 
 Video (47 seconds) : https://youtu.be/BVEwZfi7SmM
 
 
-* Step 1 : Go to the [translation landing page](https://translate.status.im/) and click a link you would like to translate(e.g. Status app translation). You nedd to sign up for Lokalise to get your work started.
+* Step 1 : Go to the [translation landing page](https://translate.status.im/) and click a link to start the translation(e.g. Status app translation) in the language card. You need to sign up for Lokalise in advance.
 
 <img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise1.png" width="800">
 
@@ -132,7 +132,6 @@ Please submit a pull request in accordance with the format below.
 git clone https://github.com/status-im/translate.status.im.git
 cd translate.status.im
 ```
-
 
 ```bash
 yarn install
