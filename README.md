@@ -1,6 +1,6 @@
 # Translate Status into Your Language
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize our secure, censorship-resistant service!
@@ -117,6 +117,7 @@ Please submit a pull request in accordance with the format below.
   <tr>
     <td align="center"><a href="https://github.com/mercuriosilber"><img src="https://avatars2.githubusercontent.com/u/35112265?v=4" width="100px;" alt=""/><br /><sub><b>mercuriosilber</b></sub></a><br /><a href="#translation-mercuriosilber" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/chtyozi88"><img src="https://avatars2.githubusercontent.com/u/48397079?v=4" width="100px;" alt=""/><br /><sub><b>chtyozi88</b></sub></a><br /><a href="#translation-chtyozi88" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://Ethgang.carrd.co"><img src="https://avatars2.githubusercontent.com/u/60158814?v=4" width="100px;" alt=""/><br /><sub><b>Lilsiri.eth</b></sub></a><br /><a href="#translation-Onebotband" title="Translation">🌍</a></td>
   </tr>
 </table>
 
