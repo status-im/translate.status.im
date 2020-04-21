@@ -20,11 +20,13 @@ class Main extends Component {
     super(props)
     this.toggleListReverse = this.toggleListReverse.bind(this)
     this.toggleSortLang = this.toggleSortLang.bind(this)
+    this.handleOnChange = this.handleOnChange.bind(this)
     this.state = {
       cardList: [],
       isDefault: true,
       progress_by_lang: [],
-      loading: true
+      loading: true,
+      keyword: '',
     }
   }
 
@@ -97,51 +99,79 @@ class Main extends Component {
     })
   }
 
+  handleOnChange(event){
+    let keyword = event.target.value.toLowerCase()
+    this.setState({
+      keyword: keyword,
+    })
+  }
+
+  filterLanguage(langs, keyword) {
+    return langs.filter(card => card.lang_en.toLowerCase().includes(keyword) || card.lang.toLowerCase().includes(keyword))
+  }
+
   render() {
-    var langCards = []
-    var { cardList, isDefault, progress_by_lang, loading } = this.state;
+    let langCards = []
+    const { cardList, isDefault, progress_by_lang, loading, keyword } = this.state;
 
     if (isDefault) {
       if(!loading) {
-        var shuffledList = shuffleArray(cardList);
-        langCards = shuffledList.map((item, index) => {
-          return <LangCard
-            card={item}
-            progress={progress_by_lang}
-            key={`car-list-key ${index}`}
-          />
+        const shuffledList = shuffleArray(cardList);
+        langCards = this.filterLanguage(shuffledList, keyword).map((item, index) => {
+          return (
+            <LangCard
+              card={item}
+              progress={progress_by_lang}
+              key={`car-list-key ${index}`}
+            />
+          )
         })
       }
     }
     else {
       if (!loading) {
-        langCards = cardList.map((item, index) => {
-          return <LangCard
-            card={item}
-            progress={progress_by_lang}
-            key={`car-list-key ${index}`}
-          />
+        langCards = this.filterLanguage(cardList,keyword).map((item, index) => {
+          return (
+            <LangCard
+              card={item}
+              progress={progress_by_lang}
+              key={`car-list-key ${index}`}
+            />
+          )
         })
       }
     }
 
     return loading ? 
-    <main>
-      <div className="title-center margin-top-80">
-        <ClipLoader
-          size={100}
-          color={"#123abc"}
-          loading={loading}
-        />
-        <h1>Please wait..</h1>
-      </div>
-    </main>
-    : 
-    (
+      (
+        <main>
+          <div className="title-center margin-top-80">
+            <ClipLoader
+              size={100}
+              color={"#123abc"}
+              loading={loading}
+            />
+            <h1>Please wait..</h1>
+          </div>
+        </main>
+      )
+      : 
+      (
         <main>
           <div className="title-center margin-top-80">
             <h1><FormattedMessage id="main.language" defaultMessage="Languages to Translate" /></h1>
           </div>
+
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <input
+              type="text"
+              className="search-bar"
+              placeholder="Search.."
+              onChange={this.handleOnChange}
+            >
+            </input>
+          </div>
+
           <div className="align-center margin-bottom-20">
             <button className="button" onClick={this.toggleSortLang}><FormattedMessage id="main.sort_alphabetical" defaultMessage="Alphabetical Order" /></button>
             <button className="button" onClick={this.toggleListReverse}><FormattedMessage id="main.sort_reverse" defaultMessage="Reverse Order" /></button>

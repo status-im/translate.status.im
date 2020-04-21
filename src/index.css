@@ -338,12 +338,21 @@ header div.head p {
 
 
 main {
- 
   position: relative;
   z-index: 3;
   overflow: hidden;
 }
 
+.search-bar {
+  padding: 6px 6px 6px 15px;
+  width: 200px;
+  height: 30px;
+  font-size: 17px;
+  border-color: #eee;
+  border-style: solid;
+  border-width: 2px;
+  margin: 20px 0 30px 0;
+}
 
 main section {
   width: 70%;
@@ -527,6 +536,7 @@ main section form div input {
   border: none;
   font-size: 1rem;
 }
+
 main section form div textarea {
   font-family: Raleway;
  
