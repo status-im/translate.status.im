@@ -81,7 +81,7 @@ Please submit a pull request in accordance with the format below.
     },
 ```
 
-* You can find a language code [here](https://www.w3schools.com/tags/ref_language_codes.asp).
+* You can find your language code [here](https://www.w3schools.com/tags/ref_language_codes.asp).
 
 <br />
 
@@ -134,18 +134,19 @@ git clone https://github.com/status-im/translate.status.im.git
 cd translate.status.im
 ```
 
+Developemnt
+```bash
+yarn install
+yarn run start
+```
+
+Production
 ```bash
 yarn install
 yarn run build
 yarn run deploy
 ```
 
-or
-
-```bash
-yarn install
-yarn run start
-```
 <br />
 
 ## CI (Jenkins)
