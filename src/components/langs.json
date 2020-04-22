@@ -187,6 +187,24 @@
         "code": "he",
         "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/he/",
         "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/he/"
+    },
+
+    {
+        "id": 22,
+        "lang_en": "Malay",
+        "lang": "Bahasa Melayu",
+        "code": "ms",
+        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/ms/",
+        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/ms/"
+    },
+
+    {
+        "id": 23,
+        "lang_en": "Swedish",
+        "lang": "Svenska",
+        "code": "sv",
+        "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/sv/",
+        "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/sv/"
     }
 
 ]
