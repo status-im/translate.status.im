@@ -149,6 +149,10 @@ yarn run build
 yarn run deploy
 ```
 
+- This is a simple SPA using [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+- All the components except for `Main.js` use [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- Can support `i18n` localization with React-intl.
+
 <br />
 
 ## CI (Jenkins)
@@ -164,12 +168,11 @@ yarn extract:messages
 yarn manage:translations
 
 Learn more at https://maksimivanov.com/posts/how-to-localize-react-application-using-react-intl/
-
-
 ```
+You can find `en.json` and  `ko.json` in `/src/i18n/locales` supporting multi languages with react-intl.
 
 <br />
 
-## Contact
+## Contact us
 - Status public chat: https://join.status.im/status
-- Developer: [jinhojang6](https://github.com/jinhojang6)
+- Maintainer: [jinhojang6](https://github.com/jinhojang6)
