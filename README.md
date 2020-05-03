@@ -136,7 +136,7 @@ git clone https://github.com/status-im/translate.status.im.git
 cd translate.status.im
 ```
 
-Developemnt
+Development
 ```bash
 yarn install
 yarn run start
