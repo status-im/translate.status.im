@@ -23,6 +23,9 @@
     "react-spinners": "^0.8.1",
     "redux": "^4.0.1"
   },
+  "resolutions": {
+    "moment": "2.24.0"
+  },
   "scripts": {
     "clean": "rm -fr build",
     "predeploy": "npm run build",
