@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Nav from "./components/nav";
-import Header from "./components/header";
-import Main from "./components/main";
-import Tutorial from "./components/tutorial";
-import Contacts from "./components/contacts";
-import Footer from "./components/footer";
+import Nav from "./components/Nav";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Tutorial from "./components/Tutorial";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 import { addLocaleData, IntlProvider } from 'react-intl';
 import enLocaleData from 'react-intl/locale-data/en';
 import translations from './i18n/locales';
-import Contributors from './components/contributors';
+import Contributors from './components/Contributors';
 import { Tabs } from 'antd';
 import 'antd/lib/tabs/style/index.css';
 

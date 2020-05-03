@@ -156,6 +156,7 @@ yarn run deploy
 * https://ci.status.im/job/misc/job/translate.status.im/
 * https://ci.status.im/job/misc/job/dev-translate.status.im/
 
+<br />
 
 ## Exctract messages 
 ```
@@ -163,4 +164,12 @@ yarn extract:messages
 yarn manage:translations
 
 Learn more at https://maksimivanov.com/posts/how-to-localize-react-application-using-react-intl/
+
+
 ```
+
+<br />
+
+## Contact
+- Status public chat: https://join.status.im/status
+- Developer: [jinhojang6](https://github.com/jinhojang6)

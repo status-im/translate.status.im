@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 import LangData from './langs.json';
-import LangCard from './langcard';
+import LangCard from './Langcard';
 import ClipLoader from "react-spinners/ClipLoader";
 
 function shuffleArray(array) {
