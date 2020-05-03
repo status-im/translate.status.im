@@ -10,7 +10,6 @@ class Nav extends Component {
     };
     this.closeNav = this.closeNav.bind(this)
   }
-  
 
   closeNav() {
     this.setState({ isOpen: false })

@@ -4,7 +4,7 @@ import LangData from './langs.json';
 import LangCard from './Langcard';
 import ClipLoader from "react-spinners/ClipLoader";
 
-function shuffleArray(array) {
+const shuffleArray = array => {
   let i = array.length - 1;
   for (; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -94,7 +94,6 @@ class Main extends Component {
         progress_by_lang: progress_by_lang,
         loading: false,
       })
-      // console.log(this.state.progress_by_lang)
       })
     })
   }
