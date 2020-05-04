@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { Steps, Button } from 'antd';
@@ -43,70 +43,51 @@ const steps = [
   },
 ];
 
-class Tutorial extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      current: 0,
-    };
-    console.log()
-  }
-
-  onChange = current => {
-    this.setState({ current });
-  };
-
-  next() {
-    const current = this.state.current + 1;
-    this.setState({ current });
-  }
-
-  prev() {
-    const current = this.state.current - 1;
-    this.setState({ current });
-  }
+const Tutorial = () => {
   
-  render() {
-    const { current } = this.state;
-    return (
-      <main>
-        <ScrollableAnchor id={'tutorial'}>
-          <section>
-              <h2><FormattedMessage id="main.how-to-contribute" defaultMessage="How to Contribute?" /></h2>          
-              <div>
-              <div>
-                <h3><FormattedMessage id="main.app-and-website" defaultMessage="App and Website" /></h3>
-              </div>
-              <div>
-                <div className="margin-bottom-40">
-                    <p><FormattedMessage id="main.before-lokalise" defaultMessage="You can translate the Status app and website into your language with" /> <a className="blue-anchor" href="https://lokalise.co/" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.lokalise" defaultMessage="Lokalise! " /></a>
-                    <FormattedMessage id="main.after-lokalise" defaultMessage="Lokalise automates all the translation workflow and is very easy to use. You can find the simple 3 steps to start the translations as below." /></p>
-                </div>
-                <Steps current={current} onChange={this.onChange}>
-                  {steps.map(item => (
-                    <Step key={item.title} title={item.title} />
-                  ))}
-                </Steps>
-                <div className="steps-action">
-                  {current < steps.length - 1 && (
-                    <Button type="primary" onClick={() => this.next()}>
-                      Next
-                    </Button>
-                  )}
-                  {current > 0 && (
-                    <Button style={{ marginLeft: 8 }} onClick={() => this.prev()}>
-                      Previous
-                    </Button>
-                  )}
-                </div>            
-                <div className="steps-content">{steps[current].content}</div>
-              </div>
+  const [current, setCurrent] = useState(0);
+  const onChange =  current => {
+    setCurrent(current)
+  };
+  
+  return (
+    <main>
+      <ScrollableAnchor id={'tutorial'}>
+        <section>
+            <h2><FormattedMessage id="main.how-to-contribute" defaultMessage="How to Contribute?" /></h2>          
+            <div>
+            <div>
+              <h3><FormattedMessage id="main.app-and-website" defaultMessage="App and Website" /></h3>
             </div>
-          </section>
-        </ScrollableAnchor>        
-      </main>
-    );
-  }
+            <div>
+              <div className="margin-bottom-40">
+                  <p><FormattedMessage id="main.before-lokalise" defaultMessage="You can translate the Status app and website into your language with" /> <a className="blue-anchor" href="https://lokalise.co/" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.lokalise" defaultMessage="Lokalise! " /></a>
+                  <FormattedMessage id="main.after-lokalise" defaultMessage="Lokalise automates all the translation workflow and is very easy to use. You can find the simple 3 steps to start the translations as below." /></p>
+              </div>
+              <Steps current={current} onChange={onChange}>
+                {steps.map(item => (
+                  <Step key={item.title} title={item.title} />
+                ))}
+              </Steps>
+              <div className="steps-action">
+                {current < steps.length - 1 && (
+                  <Button type="primary" onClick={() => setCurrent(current + 1)}>
+                    Next
+                  </Button>
+                )}
+                {current > 0 && (
+                  <Button style={{ marginLeft: 8 }} onClick={() => setCurrent(current - 1)}>
+                    Previous
+                  </Button>
+                )}
+              </div>            
+              <div className="steps-content">{steps[current].content}</div>
+            </div>
+          </div>
+        </section>
+      </ScrollableAnchor>        
+    </main>
+  );
 }
 
 export default Tutorial;
