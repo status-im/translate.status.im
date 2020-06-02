@@ -54,7 +54,7 @@ All the translations will be reviewed via dev links
    - Status DApp : apk(Android) or ipa(iOS) [files for testing purposes](https://github.com/status-im/status-react/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+translation) 
    - Your translatoins will be reviewed by other ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live through the Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting). To be a reviewer, 
       - email: translate@status.im 
-      - [Status public chat](https://get.status.im/chat/public/status-translate)
+      - [Status public chat](https://join.status.im/status-translate)
 
 - **Progress**  
 You can find the progresses on the [translation campaign website](https://translate.status.im/). Your translation will be applied if it is completed more than 90%.

@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="flex">
               <svg className="footer-svg" width="24px" height="26px" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fillRule="evenodd" clipRule="evenodd" d="M12.1024 12.2436C13.5117 12.3959 14.921 12.548 16.6536 12.4479C21.348 12.1763 24.1917 9.67638 23.9899 5.93954C23.7842 2.13751 20.0011 -0.204891 16.2158 0.0141337C10.0471 0.37075 5.51085 5.99009 4.99996 12.4127C5.83772 12.2091 6.71948 12.0875 7.55103 12.0395C9.28379 11.9393 10.6931 12.0915 12.1024 12.2436ZM0.00956796 20.5554C0.204224 24.0407 3.78832 26.1879 7.37452 25.987C13.2185 25.6601 17.5162 20.509 18 14.6216C17.2063 14.8083 16.3711 14.9199 15.5832 14.9639C13.9417 15.0557 12.6065 14.9162 11.2712 14.7766C9.93612 14.6372 8.60089 14.4977 6.95944 14.5896C2.51233 14.8384 -0.18188 17.13 0.00956796 20.5554Z" fill="white"/> </svg>
               <div className="inner footer-inline">
-                  <a href="http://get.status.im/chat/public/status" rel="noopener noreferrer" target="_blank">Status</a>
+                  <a href="http://join.status.im/status" rel="noopener noreferrer" target="_blank">Status</a>
                   <p>Join the growing community in Status.</p>
               </div>                
             </div>
