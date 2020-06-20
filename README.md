@@ -7,6 +7,8 @@ Status is completely open source and made by contributors all over the world. Yo
 
 We use [Lokalise](https://lokalise.co/) to translate the Status app and website into multiple languages. Find the list of languages to translate here: https://translate.status.im/.
 
+- [Tutorial](https://docs.google.com/presentation/d/1h9yq5w4_U8BL961PVjUdDnDahvm5IeVbLpUM9h7G2pU/edit?usp=sharing)
+
 <br />
 
 ## How to help translate?
@@ -16,7 +18,6 @@ We use [Lokalise](https://lokalise.co/) to translate the Status app and website 
 [<img src="https://lh3.googleusercontent.com/7us4vcV44EmMTy7enUCHVtBIxLYjcRub3YqXRxx6IELzE6jrKQsmGmZQR1kq5KNuNlV9Fs3pUhYGb9z2UD_A7kDcJBi1bfuhqyLy5k4ZkcznEMd6eLCBmhOzOznCdwuqUeLgn2tMag=w2400" width="400">](http://bit.ly/translatestatus)
 
 Video (47 seconds) : https://youtu.be/BVEwZfi7SmM
-
 
 * Step 1 : Go to the [translation landing page](https://translate.status.im/) and click a link to start the translation(e.g. Status app translation) in the language card. You need to sign up for Lokalise in advance.
 
