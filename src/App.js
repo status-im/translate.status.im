@@ -32,7 +32,7 @@ class App extends Component {
           <IntlProvider locale={locale} messages={messages}>
             <Main />
           </IntlProvider>
-          <Tabs defaultActiveKey="2">
+          <Tabs defaultActiveKey="2" className="antd-tab-custom">
             <TabPane tab="Contributors" key="1">
               <IntlProvider locale={locale} messages={messages}>
                 <Contributors />

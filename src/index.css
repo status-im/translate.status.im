@@ -710,6 +710,21 @@ footer ul {
     padding: 20px;
   }
 
+  .ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-wrap {
+    display: block !important;
+  }
+
+  .ant-tabs-tab {
+    font-size: 20px !important;
+  }
+
+  .ant-tabs-nav-list {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px;
+  }
+
   .ant-tabs-nav .ant-tabs-tab {
     margin: 0 50px 0 0 !important;
   }
