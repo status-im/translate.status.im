@@ -179,23 +179,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .button {
   margin: 20px;
-  font-size: 1rem;
+  font-size: 20px !important;
   padding: 6px 20px;
-  cursor: pointer;
-  overflow: visible;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #ffffff;
-  border-radius: 10px;
-  border-color: rgb(173, 173, 173);
-  border-style: solid;
-  background-color: rgb(173, 173, 173);
-}
-
-.button:hover {
-  background-color: rgb(121, 121, 121);
-  border-color: rgb(121, 121, 121);
-  border-style: solid;
+  width: 150px !important;
+  height: 50px !important;
 }
 
 nav img {
@@ -344,14 +331,7 @@ main {
 }
 
 .search-bar {
-  padding: 6px 6px 6px 15px;
-  width: 200px;
-  height: 30px;
-  font-size: 17px;
-  border-color: #eee;
-  border-style: solid;
-  border-width: 2px;
-  margin: 20px 0 30px 0;
+  width: 300px;
 }
 
 main section {

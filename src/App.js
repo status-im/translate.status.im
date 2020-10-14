@@ -11,6 +11,10 @@ import translations from './i18n/locales';
 import Contributors from './components/Contributors';
 import { Tabs } from 'antd';
 import 'antd/lib/tabs/style/index.css';
+import 'antd/lib/input/style/index.css';
+import 'antd/lib/button/style/index.css';
+
+// import 'antd/dist/antd.css';
 
 const { TabPane } = Tabs;
 

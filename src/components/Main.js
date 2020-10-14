@@ -4,6 +4,10 @@ import LangData from './langs.json';
 import LangCard from './Langcard';
 import ClipLoader from "react-spinners/ClipLoader";
 
+import { Input, Button } from 'antd';
+
+const { Search } = Input;
+
 const shuffleArray = array => {
   let i = array.length - 1;
   for (; i > 0; i--) {
@@ -161,19 +165,19 @@ class Main extends Component {
             <h1><FormattedMessage id="main.language" defaultMessage="Languages to Translate" /></h1>
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <input
-              type="text"
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '50px' }}>
+            <Search
               className="search-bar"
               placeholder="Search.."
+              style={{ width: 300 }}
+              size="large"
               onChange={this.handleOnChange}
-            >
-            </input>
+            />
           </div>
 
           <div className="align-center margin-bottom-20">
-            <button className="button" onClick={this.toggleSortLang}><FormattedMessage id="main.sort_alphabetical" defaultMessage="Alphabetical Order" /></button>
-            <button className="button" onClick={this.toggleListReverse}><FormattedMessage id="main.sort_reverse" defaultMessage="Reverse Order" /></button>
+            <Button className="button" onClick={this.toggleSortLang}><FormattedMessage id="main.sort_alphabetical" defaultMessage="Alphabetical" /></Button>
+            <Button className="button" onClick={this.toggleListReverse}><FormattedMessage id="main.sort_reverse" defaultMessage="Reverse" /></Button>
           </div>       
           <div className="languages">
             {langCards}
