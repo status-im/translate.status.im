@@ -83,6 +83,32 @@ p {
 
 /*------------- NAVIGATION BAR -------------------*/
 
+.nav-button-wrapper {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.nav-margin-right {
+  margin-right: 25px;
+}
+
+.nav-button {
+  width: auto;
+  display: inline-block;
+  font-size: 18px !important;
+  height: auto !important;
+}
+
+.nav-link {
+  text-decoration: none !important;
+}
+
 .logo-container {
   margin: 20px;
 }
@@ -192,7 +218,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   margin: 20px;
   font-size: 20px !important;
   padding: 6px 20px;
-  width: 150px !important;
   height: 50px !important;
 }
 
@@ -410,10 +435,6 @@ main div p{
 
 .steps-action {
   margin-top: 24px;
-}
-
-.ant-btn {
-  width: 120px;
 }
 
  /*------------- countries -------------------*/
@@ -701,6 +722,16 @@ footer ul {
 .ant-tabs>.ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-wrap {
   display: flex !important;
   justify-content: center;
+}
+
+@media (max-width:700px) { 
+  .nav-mobile {
+    display: inline;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
 }
 
 @media (max-width:499px) { 

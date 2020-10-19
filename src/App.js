@@ -13,6 +13,7 @@ import { Tabs } from 'antd';
 import 'antd/lib/tabs/style/index.css';
 import 'antd/lib/input/style/index.css';
 import 'antd/lib/button/style/index.css';
+import 'antd/lib/steps/style/index.css';
 
 // import 'antd/dist/antd.css';
 

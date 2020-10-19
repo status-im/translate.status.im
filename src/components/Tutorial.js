@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { Steps, Button } from 'antd';
-import 'antd/lib/steps/style/index.css';
-import 'antd/lib/button/style/index.css';
 
 const { Step } = Steps;
 
