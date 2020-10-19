@@ -54,10 +54,10 @@ const Tutorial = () => {
     <main>
       <ScrollableAnchor id={'tutorial'}>
         <section>
-            <h2><FormattedMessage id="main.how-to-contribute" defaultMessage="How to Contribute?" /></h2>          
+            <h2 className="font-weight-400"><FormattedMessage id="main.how-to-contribute" defaultMessage="How to Contribute?" /></h2>          
             <div>
             <div>
-              <h3><FormattedMessage id="main.app-and-website" defaultMessage="App and Website" /></h3>
+              <h3 className="font-weight-400"><FormattedMessage id="main.app-and-website" defaultMessage="App and Website" /></h3>
             </div>
             <div>
               <div className="margin-bottom-40">

@@ -86,9 +86,11 @@ class Main extends Component {
     })
     .then(response => {
       response.json().then((data) => {
+        console.log(data)
       const progress_by_lang = [];
       data['projects'].forEach(project => { 
         const lang = {};
+        // 562366815b97551836b8f1.55149963 is Status app and 831920985cf29a3c550a85.62099336 is Status.im website
         if (project['project_id'] === "562366815b97551836b8f1.55149963" || project['project_id'] === "831920985cf29a3c550a85.62099336") {
           lang[project.name] = project['statistics']['languages']
           progress_by_lang.push(lang);
@@ -103,7 +105,7 @@ class Main extends Component {
   }
 
   handleOnChange(event){
-    let keyword = event.target.value.toLowerCase()
+    const keyword = event.target.value.toLowerCase()
     this.setState({
       keyword: keyword,
     })
@@ -162,7 +164,7 @@ class Main extends Component {
       (
         <main>
           <div className="title-center margin-top-80">
-            <h1><FormattedMessage id="main.language" defaultMessage="Languages to Translate" /></h1>
+            <h1 className="font-weight-400"><FormattedMessage id="main.language" defaultMessage="Languages to Translate" /></h1>
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '50px' }}>
