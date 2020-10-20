@@ -10,7 +10,7 @@ const steps = [
     title: 'Step 1',
     content: 
     <div className="margin-bottom-40">
-      <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.step1-1" defaultMessage="In the language cards above, click a link you want to contribute (e.g. Status app translation) and sign up for Lokalise." /></p>
+      <p><b><FormattedMessage id="main.step1" defaultMessage="Step 1 : " /></b><FormattedMessage id="main.step1-1" defaultMessage="In the language cards above, click a link you want to contribute (e.g. Status DApp translation) and sign up for Lokalise." /></p>
       <div className="lokalise-img">
         <img src={require("../images/lokalise1.png")} className="image-size" alt="Lokalise Sign up" ></img><br /><br /><br />                 
       </div>               

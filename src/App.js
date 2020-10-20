@@ -10,19 +10,23 @@ import enLocaleData from 'react-intl/locale-data/en';
 import translations from './i18n/locales';
 import Contributors from './components/Contributors';
 import { Tabs } from 'antd';
+
+// antd css
 import 'antd/lib/tabs/style/index.css';
 import 'antd/lib/input/style/index.css';
 import 'antd/lib/button/style/index.css';
 import 'antd/lib/steps/style/index.css';
-
+import 'antd/lib/progress/style/index.css';
+import 'antd/lib/statistic/style/index.css';
+import 'antd/lib/grid/style/index.css';
 // import 'antd/dist/antd.css';
 
 const { TabPane } = Tabs;
 
 addLocaleData(enLocaleData);
 
-var locale = "en";;
-var messages = translations[locale];
+const locale = "en";;
+const messages = translations[locale];
 
 class App extends Component {
   render() {
@@ -37,16 +41,16 @@ class App extends Component {
           <IntlProvider locale={locale} messages={messages}>
             <Main />
           </IntlProvider>
-          <Tabs defaultActiveKey="2" className="antd-tab-custom">
-            <TabPane tab="Contributors" key="1">
-              <IntlProvider locale={locale} messages={messages}>
-                <Contributors />
-              </IntlProvider>              
-            </TabPane>
-            <TabPane tab="How to contribute" key="2">
+          <Tabs defaultActiveKey="1" className="antd-tab-custom">
+            <TabPane tab="How to contribute" key="1">
               <IntlProvider locale={locale} messages={messages}>
                 <Tutorial />
               </IntlProvider>
+            </TabPane>
+            <TabPane tab="Contributors" key="2">
+              <IntlProvider locale={locale} messages={messages}>
+                <Contributors />
+              </IntlProvider>              
             </TabPane>
             <TabPane tab="Contacts" key="3">
               <IntlProvider locale={locale} messages={messages}>

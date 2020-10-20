@@ -568,6 +568,18 @@ main section form div textarea {
   font-size: 36px;
 }
 
+.stats-container {
+  margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.stats-card {
+  text-align: center;
+  display: inline-block !important;
+  margin-bottom: 50px;
+}
+
  /*------------- footer -------------------*/
 
 footer {
@@ -732,6 +744,12 @@ footer ul {
   .nav-desktop {
     display: none;
   }
+
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  
 }
 
 @media (max-width:499px) { 

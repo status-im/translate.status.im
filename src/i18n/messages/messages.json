@@ -71,7 +71,7 @@
   },
   {
     "id": "main.app-application",
-    "defaultMessage": "Status app translation",
+    "defaultMessage": "Status DApp translation",
     "filepath": "src/components/langcard.js"
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "id": "main.step1-1",
-    "defaultMessage": "In the language cards above, click a link you want to contribute (e.g. Status app translation) and sign up for Lokalise.",
+    "defaultMessage": "In the language cards above, click a link you want to contribute (e.g. Status DApp translation) and sign up for Lokalise.",
     "filepath": "src/components/tutorial.js"
   },
   {

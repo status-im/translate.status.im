@@ -55,7 +55,7 @@ const LangCard = (props) => {
                     <p className="language-title">{cardItem.lang_en}</p>
                     <p className="language-name">{cardItem.lang}</p>
                     <div style={{ paddingTop: '5px' }}>
-                        <p><a href={cardItem.app} target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.app-application" defaultMessage="Status app translation" /></a></p>
+                        <p><a href={cardItem.app} target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.app-application" defaultMessage="Status DApp translation" /></a></p>
                         <Line percent={dappProgress} strokeWidth="3" trailWidth="3" strokeColor="#2db7f5" style={{ width: '50%'}} /> <span style={{ marginLeft: '20px', fontFamily: 'Roboto'}}>{dappProgress}%</span>
                         <p className="language-words">{numberWithCommas(dappWordsToDo)} words to do</p>
                     </div>

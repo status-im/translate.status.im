@@ -3,6 +3,7 @@ import { FormattedMessage } from 'react-intl';
 import LangData from './langs.json';
 import LangCard from './Langcard';
 import ClipLoader from "react-spinners/ClipLoader";
+import Stats from './Stats';
 
 import { Input, Button } from 'antd';
 
@@ -28,7 +29,8 @@ class Main extends Component {
     this.state = {
       cardList: [],
       isDefault: true,
-      progress_by_lang: [],
+      progressByLang: [],
+      statsByProject: [],
       loading: true,
       keyword: '',
     }
@@ -86,18 +88,29 @@ class Main extends Component {
     })
     .then(response => {
       response.json().then((data) => {
-        console.log(data)
-      const progress_by_lang = [];
+      // console.log(data)
+      const progressByLang = [];
+      const statsByProject = [];
       data['projects'].forEach(project => { 
         const lang = {};
         // 562366815b97551836b8f1.55149963 is Status app and 831920985cf29a3c550a85.62099336 is Status.im website
         if (project['project_id'] === "562366815b97551836b8f1.55149963" || project['project_id'] === "831920985cf29a3c550a85.62099336") {
-          lang[project.name] = project['statistics']['languages']
-          progress_by_lang.push(lang);
+          lang[project.name] = project['statistics']['languages'];
+
+          const projectStats = {};
+          projectStats.name = project.name;
+          projectStats.base_words = project.statistics.base_words;
+          projectStats.keys_total = project.statistics.keys_total;
+          projectStats.progress_total = project.statistics.progress_total;
+          projectStats.contributors = project.statistics.team;
+
+          progressByLang.push(lang);
+          statsByProject.push(projectStats);
         }
       })
       this.setState({
-        progress_by_lang: progress_by_lang,
+        progressByLang: progressByLang,
+        statsByProject: statsByProject,
         loading: false,
       })
       })
@@ -117,7 +130,7 @@ class Main extends Component {
 
   render() {
     let langCards = []
-    const { cardList, isDefault, progress_by_lang, loading, keyword } = this.state;
+    const { cardList, isDefault, progressByLang, statsByProject, loading, keyword } = this.state;
 
     if (isDefault) {
       if(!loading) {
@@ -126,7 +139,7 @@ class Main extends Component {
           return (
             <LangCard
               card={item}
-              progress={progress_by_lang}
+              progress={progressByLang}
               key={`car-list-key ${index}`}
             />
           )
@@ -139,7 +152,7 @@ class Main extends Component {
           return (
             <LangCard
               card={item}
-              progress={progress_by_lang}
+              progress={progressByLang}
               key={`car-list-key ${index}`}
             />
           )
@@ -193,6 +206,10 @@ class Main extends Component {
                 <p><a href="mailto:translate@status.im" className="blue-anchor" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.contactus" defaultMessage="Contact us!" /></a></p>
               </div> <br /><br />
           </div>
+
+          <Stats
+            data={statsByProject}
+          />
         </main>
     );
   }
