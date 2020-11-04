@@ -23,7 +23,7 @@ Video (47 seconds) : https://youtu.be/BVEwZfi7SmM
 
 <img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise1.png" width="800">
 
-* Step 2 : You will find a project that needs your help. Check out the progress and click 'WORDS TO DO (new words)` or 'UNVERIFIED (updated words)'.
+* Step 2 : You will find a project that needs your help. Check out the progress and click 'WORDS TO DO (new words)' or 'UNVERIFIED (updated words)'.
 
 <img src="https://github.com/status-im/translate.status.im/blob/master/src/images/lokalise2.png" width="800">
 
@@ -165,7 +165,7 @@ yarn run deploy
 
 <br />
 
-## Exctract messages 
+## Extract messages 
 ```
 yarn extract:messages
 yarn manage:translations
