@@ -1,6 +1,6 @@
 # Translate Status into Your Language
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize our secure, censorship-resistant service!
@@ -123,6 +123,9 @@ Please submit a pull request in accordance with the format below.
     <td align="center"><a href="https://github.com/Bild96"><img src="https://avatars2.githubusercontent.com/u/52472445?v=4" width="100px;" alt=""/><br /><sub><b>NASI₿ </b></sub></a><br /><a href="#translation-Bild96" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/albed24"><img src="https://avatars0.githubusercontent.com/u/62461597?v=4" width="100px;" alt=""/><br /><sub><b>Albed</b></sub></a><br /><a href="#translation-albed24" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/Minimisthupper"><img src="https://avatars2.githubusercontent.com/u/36794294?v=4" width="100px;" alt=""/><br /><sub><b>Floyd</b></sub></a><br /><a href="#translation-Minimisthupper" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://jdreyespaez.site/"><img src="https://avatars0.githubusercontent.com/u/1473138?v=4" width="100px;" alt=""/><br /><sub><b>Juandavid Reyes</b></sub></a><br /><a href="#translation-jdreyespaez" title="Translation">🌍</a></td>
   </tr>
 </table>
 
