@@ -1,6 +1,6 @@
 # Translate Status into Your Language
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize our secure, censorship-resistant service!
@@ -127,6 +127,7 @@ Please submit a pull request in accordance with the format below.
   <tr>
     <td align="center"><a href="https://jdreyespaez.site/"><img src="https://avatars0.githubusercontent.com/u/1473138?v=4" width="100px;" alt=""/><br /><sub><b>Juandavid Reyes</b></sub></a><br /><a href="#translation-jdreyespaez" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/haruketh"><img src="https://avatars3.githubusercontent.com/u/31604703?v=4" width="100px;" alt=""/><br /><sub><b>Haruki</b></sub></a><br /><a href="#translation-haruketh" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/oeAdgK01"><img src="https://avatars1.githubusercontent.com/u/41806434?v=4" width="100px;" alt=""/><br /><sub><b>Donald A. Iljazi</b></sub></a><br /><a href="#translation-oeAdgK01" title="Translation">🌍</a></td>
   </tr>
 </table>
 
