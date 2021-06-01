@@ -169,8 +169,8 @@ yarn run deploy
 
 ## CI (Jenkins)
 
-* https://ci.status.im/job/misc/job/translate.status.im/
-* https://ci.status.im/job/misc/job/dev-translate.status.im/
+* https://ci.status.im/job/website/job/translate.status.im/
+* https://ci.status.im/job/website/job/dev-translate.status.im/
 
 <br />
 
