@@ -78,8 +78,7 @@ function Main() {
   const { progressByLang, statsByProject, loading } = useFetchLokaliseAPI();
 
   function sortByLang() {
-    const newCardList = cardList.sort((a, b) => {
-      //cardList is being mutated by 'sort' array method
+    const newCardList = [...cardList].sort((a, b) => {
       if (a.lang_en < b.lang_en) return -1;
       if (a.lang_en > b.lang_en) return 1;
       return 0;
@@ -94,7 +93,7 @@ function Main() {
 
   function toggleListReverse() {
     setDefaultSort(false);
-    const newCardList = cardList.reverse(); //cardList is being mutated by 'reverse' array method
+    const newCardList = [...cardList].reverse();
     setCardList(newCardList);
   }
 
@@ -117,7 +116,6 @@ function Main() {
     if (!loading) {
       const shuffledList = shuffleArray(cardList);
       langCards = filterLanguage(shuffledList, keyword).map((item, index) => {
-        // filterLanguage function can be optimized
         return (
           <LangCard
             card={item}
