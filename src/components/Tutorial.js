@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { Steps, Button } from 'antd';
+import { Steps } from 'antd';
 
 const { Step } = Steps;
 
@@ -67,18 +67,6 @@ const Tutorial = () => {
                   <Step key={item.title} title={item.title} />
                 ))}
               </Steps>
-              <div className="steps-action">
-                {current < steps.length - 1 && (
-                  <Button type="primary" onClick={() => setCurrent(current + 1)}>
-                    Next
-                  </Button>
-                )}
-                {current > 0 && (
-                  <Button style={{ marginLeft: 8 }} onClick={() => setCurrent(current - 1)}>
-                    Previous
-                  </Button>
-                )}
-              </div>            
               <div className="steps-content">{steps[current].content}</div>
             </div>
           </div>
