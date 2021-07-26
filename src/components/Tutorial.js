@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { Steps, Button } from 'antd';
+import { Steps } from 'antd';
 
 const { Step } = Steps;
 
