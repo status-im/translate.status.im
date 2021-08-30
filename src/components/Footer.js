@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <a href="https://www.iubenda.com/privacy-policy/94457202" rel="noopener noreferrer" target="_blank">Privacy Policy</a>
+        <a href="https://status.im/privacy-policy/" rel="noopener noreferrer" target="_blank">Privacy Policy</a>
       </div>
     </footer>
   );
