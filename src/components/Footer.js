@@ -1,7 +1,6 @@
 import React from "react";
 import SocialNetworks from "./SocialNetworks";
 import styled from "styled-components/macro";
-import { externalURLs } from "../constants/externalURLs";
 
 const FooterFrame = styled.footer`
   background: #2b2b2b;
@@ -73,7 +72,7 @@ function Footer() {
         <SocialNetworks />
       </FooterBody>
       <FooterBottom>
-        <a href={externalURLs.privacyPolicy} rel="noopener noreferrer" target="_blank">
+        <a href="https://status.im/privacy-policy/" rel="noopener noreferrer" target="_blank">
           Privacy Policy
         </a>
       </FooterBottom>
