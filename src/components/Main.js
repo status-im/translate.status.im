@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FormattedMessage } from "react-intl";
-import LangData from "./langs.json";
+import LangData from "../constants/langs.json";
 import LangCard, { CardGroup } from "./Langcard";
 import ClipLoader from "react-spinners/ClipLoader";
 import Stats from "./Stats";

@@ -38,37 +38,27 @@ const messages = translations[locale];
 
 function App() {
   return (
-    <Container id="main">
+    <>
       <IntlProvider locale={locale} messages={messages}>
-        <Nav />
+        <Container id="main">
+          <Nav />
+          <Header />
+          <Main />
+          <Tabs defaultActiveKey="1">
+            <TabPane tab="How to contribute" key="1">
+              <Tutorial />
+            </TabPane>
+            <TabPane tab="Contributors" key="2">
+              <Contributors />
+            </TabPane>
+            <TabPane tab="Contacts" key="3">
+              <Contacts />
+            </TabPane>
+          </Tabs>
+          <Footer />
+        </Container>
       </IntlProvider>
-      <IntlProvider locale={locale} messages={messages}>
-        <Header />
-      </IntlProvider>
-      <IntlProvider locale={locale} messages={messages}>
-        <Main />
-      </IntlProvider>
-      <Tabs defaultActiveKey="1">
-        <TabPane tab="How to contribute" key="1">
-          <IntlProvider locale={locale} messages={messages}>
-            <Tutorial />
-          </IntlProvider>
-        </TabPane>
-        <TabPane tab="Contributors" key="2">
-          <IntlProvider locale={locale} messages={messages}>
-            <Contributors />
-          </IntlProvider>
-        </TabPane>
-        <TabPane tab="Contacts" key="3">
-          <IntlProvider locale={locale} messages={messages}>
-            <Contacts />
-          </IntlProvider>
-        </TabPane>
-      </Tabs>
-      <IntlProvider locale={locale} messages={messages}>
-        <Footer />
-      </IntlProvider>
-    </Container>
+    </>
   );
 }
 
