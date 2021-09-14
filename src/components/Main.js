@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { FormattedMessage } from "react-intl";
-import LangData from "./langs.json";
-import LangCard from "./Langcard";
+import LangData from "../constants/langs.json";
+import LangCard, { CardGroup } from "./Langcard";
 import ClipLoader from "react-spinners/ClipLoader";
 import Stats from "./Stats";
-import { Input, Button } from "antd";
+import { Input } from "antd";
+import Section from "./Section";
+import { externalURLs } from "../constants/externalURLs";
 
 const { Search } = Input;
 
-const shuffleArray = (array) => {
+const shuffleArray = array => {
   let i = array.length - 1;
   for (; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -36,12 +38,12 @@ function useFetchLokaliseAPI() {
         "X-Api-Token": "f1a59805d56f87ef46c2562dcd707f7e45103241",
         "X-Requested-With": "XMLHttpRequest",
       },
-    }).then((response) => {
-      response.json().then((data) => {
+    }).then(response => {
+      response.json().then(data => {
         // console.log(data)
         const _progressByLang = [];
         const _statsByProject = [];
-        data["projects"].forEach((project) => {
+        data["projects"].forEach(project => {
           const lang = {};
           // 562366815b97551836b8f1.55149963 is Status app and 831920985cf29a3c550a85.62099336 is Status.im website
           if (
@@ -104,9 +106,7 @@ function Main() {
 
   function filterLanguage(langs, keyword) {
     return langs.filter(
-      (card) =>
-        card.lang_en.toLowerCase().includes(keyword) ||
-        card.lang.toLowerCase().includes(keyword)
+      card => card.lang_en.toLowerCase().includes(keyword) || card.lang.toLowerCase().includes(keyword),
     );
   }
 
@@ -116,119 +116,66 @@ function Main() {
     if (!loading) {
       const shuffledList = shuffleArray(cardList);
       langCards = filterLanguage(shuffledList, keyword).map((item, index) => {
-        return (
-          <LangCard
-            card={item}
-            progress={progressByLang}
-            key={`car-list-key ${index}`}
-          />
-        );
+        return <LangCard card={item} progress={progressByLang} key={`car-list-key ${index}`} />;
       });
     }
   } else {
     if (!loading) {
       langCards = filterLanguage(cardList, keyword).map((item, index) => {
-        return (
-          <LangCard
-            card={item}
-            progress={progressByLang}
-            key={`car-list-key ${index}`}
-          />
-        );
+        return <LangCard card={item} progress={progressByLang} key={`car-list-key ${index}`} />;
       });
     }
   }
 
   return loading ? (
-    <main>
-      <div className="title-center margin-top-80">
+    <Section.Frame>
+      <Section.Wrapper>
         <ClipLoader size={100} color={"#123abc"} loading={loading} />
-        <h1>Please wait..</h1>
-      </div>
-    </main>
+        <Section.Title>Please wait..</Section.Title>
+      </Section.Wrapper>
+    </Section.Frame>
   ) : (
-    <main>
-      <div className="title-center margin-top-80">
-        <h1 className="font-weight-400">
-          <FormattedMessage
-            id="main.language"
-            defaultMessage="Languages to Translate"
-          />
-        </h1>
-      </div>
+    <Section.Frame>
+      <Section.Wrapper>
+        <Section.Title>
+          <FormattedMessage id="main.language" defaultMessage="Languages to Translate" />
+        </Section.Title>
+      </Section.Wrapper>
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginBottom: "50px",
-        }}
-      >
-        <Search
-          className="search-bar"
-          placeholder="Search.."
-          style={{ width: 300 }}
-          size="large"
-          onChange={handleOnChange}
-        />
-      </div>
-
-      <div className="align-center margin-bottom-20">
-        <Button className="button" onClick={toggleSortLang}>
-          <FormattedMessage
-            id="main.sort_alphabetical"
-            defaultMessage="Alphabetical"
-          />
-        </Button>
-        <Button className="button" onClick={toggleListReverse}>
+      <Section.Flex>
+        <Search placeholder="Search.." style={{ width: 300 }} size="large" onChange={handleOnChange} />
+      </Section.Flex>
+      <Section.Wrapper style={{ margin: "0 0 20px 0" }}>
+        <Section.Button onClick={toggleSortLang}>
+          <FormattedMessage id="main.sort_alphabetical" defaultMessage="Alphabetical" />
+        </Section.Button>
+        <Section.Button onClick={toggleListReverse}>
           <FormattedMessage id="main.sort_reverse" defaultMessage="Reverse" />
-        </Button>
-      </div>
-      <div className="languages">{langCards}</div>
+        </Section.Button>
+      </Section.Wrapper>
+      <CardGroup>{langCards}</CardGroup>
       <div>
-        <div className="align-center" style={{ margin: "60px 0 80px 0" }}>
-          <p>
-            <FormattedMessage
-              id="main.addlanguage"
-              defaultMessage="Want to add your Language?"
-            />
-            <FormattedMessage
-              id="main.checkoutthis"
-              defaultMessage="Check out this"
-            />
-            <a
-              className="blue-anchor"
-              href="https://github.com/status-im/translate.status.im/blob/develop/README.md#translation-guidelines"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FormattedMessage
-                id="main.pullrequest-link"
-                defaultMessage="translation guidelines"
-              />
-            </a>
+        <Section.Wrapper style={{ margin: "60px 0 80px 0" }}>
+          <Section.Text>
+            <FormattedMessage id="main.addlanguage" defaultMessage="Want to add your Language?" />
+            <FormattedMessage id="main.checkoutthis" defaultMessage="Check out this" />
+            <Section.Link href={externalURLs.translationGuidelines} target="_blank" rel="noopener noreferrer">
+              <FormattedMessage id="main.pullrequest-link" defaultMessage="translation guidelines" />
+            </Section.Link>
             <FormattedMessage id="main.or" defaultMessage="or" />
-          </p>
-          <p>
-            <a
-              href="mailto:translate@status.im"
-              className="blue-anchor"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FormattedMessage
-                id="main.contactus"
-                defaultMessage="Contact us!"
-              />
-            </a>
-          </p>
-        </div>{" "}
+          </Section.Text>
+          <Section.Text>
+            <Section.Link href={externalURLs.mailToStatus} target="_blank" rel="noopener noreferrer">
+              <FormattedMessage id="main.contactus" defaultMessage="Contact us!" />
+            </Section.Link>
+          </Section.Text>
+        </Section.Wrapper>
         <br />
         <br />
       </div>
 
       <Stats data={statsByProject} />
-    </main>
+    </Section.Frame>
   );
 }
 

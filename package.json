@@ -13,6 +13,7 @@
     "rc-progress": "^2.5.2",
     "react": "^16.8.6",
     "react-app-polyfill": "^1.0.1",
+    "react-burger-menu": "^2.6.13",
     "react-dom": "^16.8.6",
     "react-intl": "^2.8.0",
     "react-intl-cra": "^0.3.4",
@@ -20,7 +21,8 @@
     "react-intl.macro": "^0.3.6",
     "react-scripts": "3.0.0",
     "react-scrollable-anchor": "^0.6.1",
-    "react-spinners": "^0.8.1"
+    "react-spinners": "^0.8.1",
+    "styled-components": "^5.3.1"
   },
   "resolutions": {
     "moment": "2.24.0"
@@ -52,6 +54,11 @@
     ]
   },
   "devDependencies": {
-    "react-burger-menu": "^2.6.13"
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2"
   }
 }

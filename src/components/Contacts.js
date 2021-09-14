@@ -1,18 +1,33 @@
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import React from "react";
+import { FormattedMessage } from "react-intl";
+import Section from "./Section";
+import { externalURLs } from "../constants/externalURLs";
 
-const Contacts = () => {
+function Contacts() {
   return (
-    <main>
-      <section id="contact-us">
-          <h2><FormattedMessage id="main.contact" defaultMessage="Contact Us" /></h2>
-              <div className="align-center">
-                  <p><FormattedMessage id="main.contact-explanation" defaultMessage="Do you have any questions? Don't hesitate to contact us!" /></p>
-                  <p><a className="blue-anchor" href="mailto:translate@status.im">translate@status.im</a></p>
-                  <p><a className="blue-anchor" href="https://join.status.im/status-translate" target="_blank" rel="noopener noreferrer"><FormattedMessage id="main.public-chat" defaultMessage="#Status-translate public chat" /></a></p>
-              </div>
-      </section>
-    </main>
+    <Section.Frame>
+      <Section.Body id="contact-us">
+        <Section.TitleII>
+          <FormattedMessage id="main.contact" defaultMessage="Contact Us" />
+        </Section.TitleII>
+        <Section.Wrapper style={{ margin: 0 }}>
+          <Section.StyledWrapper>
+            <FormattedMessage
+              id="main.contact-explanation"
+              defaultMessage="Do you have any questions? Don't hesitate to contact us!"
+            />
+          </Section.StyledWrapper>
+          <Section.StyledWrapper>
+            <Section.Link href={externalURLs.mailToStatus}>translate@status.im</Section.Link>
+          </Section.StyledWrapper>
+          <Section.StyledWrapper>
+            <Section.Link href={externalURLs.statusTranslate} target="_blank" rel="noopener noreferrer">
+              <FormattedMessage id="main.public-chat" defaultMessage="#Status-translate public chat" />
+            </Section.Link>
+          </Section.StyledWrapper>
+        </Section.Wrapper>
+      </Section.Body>
+    </Section.Frame>
   );
 }
 

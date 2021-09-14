@@ -1,18 +1,22 @@
-import React from 'react';
+import React from "react";
+import { externalURLs } from "../constants/externalURLs";
+import Section from "./Section";
 
-const Contributors = () => {
+function Contributors() {
   return (
-      <main>
-          <section>
-              <p className="contributor-font">Shout out to these open-source contributors!</p>
-              <div style={{ margin: '0 auto' }}>
-                  <a href="https://github.com/status-im/translate.status.im#contributors" target="_blank" rel="noopener noreferrer"><h3 className="blue-anchor" >Contributors (Github)</h3></a>
-              </div>
-          </section>
-      </main>
-
+    <Section.Frame>
+      <Section.Body>
+        <Section.StyledTitle>Shout out to these open-source contributors!</Section.StyledTitle>
+        <div style={{ margin: 0 }}>
+          <Section.StyledTitleIII>
+            <Section.Link href={externalURLs.contributors} target="_blank" rel="noopener noreferrer">
+              Contributors (Github)
+            </Section.Link>
+          </Section.StyledTitleIII>
+        </div>
+      </Section.Body>
+    </Section.Frame>
   );
 }
-
 
 export default Contributors;
