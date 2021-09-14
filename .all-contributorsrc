@@ -238,6 +238,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "adnfx2",
+      "name": "Adrian Pirela",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6142777?v=4",
+      "profile": "https://adnfx2.github.io/adn-react-portfolio",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
