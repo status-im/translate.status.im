@@ -1,6 +1,6 @@
 # Translate Status into Your Language
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Status is completely open source and made by contributors all over the world. Your translations can help more people utilize our secure, censorship-resistant service!
@@ -131,6 +131,7 @@ Please submit a pull request in accordance with the format below.
     <td align="center"><a href="https://github.com/oeAdgK01"><img src="https://avatars1.githubusercontent.com/u/41806434?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Donald A. Iljazi</b></sub></a><br /><a href="#translation-oeAdgK01" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/nio21"><img src="https://avatars1.githubusercontent.com/u/74250159?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nio21</b></sub></a><br /><a href="#translation-nio21" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/ajacklink"><img src="https://avatars.githubusercontent.com/u/81025043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>4DZ!4K</b></sub></a><br /><a href="#translation-ajacklink" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://adnfx2.github.io/adn-react-portfolio"><img src="https://avatars.githubusercontent.com/u/6142777?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adrian Pirela</b></sub></a><br /><a href="https://github.com/status-im/translate.status.im/commits?author=adnfx2" title="Code">💻</a></td>
   </tr>
 </table>
 
