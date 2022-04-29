@@ -11,7 +11,7 @@ pipeline {
   }
 
   environment {
-    DEV_HOST = 'jenkins@node-01.do-ams3.proxy.misc.statusim.net'
+    DEV_HOST = 'jenkins@node-01.do-ams3.sites.misc.statusim.net'
     DEV_OPTS = '-e "ssh -o StrictHostKeyChecking=no"'
     DEV_SITE = 'dev-translate'
     GH_USER = 'status-im-auto'
