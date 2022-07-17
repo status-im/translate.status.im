@@ -39,7 +39,7 @@ Video (47 seconds) : https://youtu.be/BVEwZfi7SmM
 All languages have a different word order and cutural background. Therefore, we encourage you to translate all the words and sentences into your language in comparison with the actual Status DApp and website. Also, you need to be careful when using the online translators that Lokalise offers. For example, [Status](https://dictionary.cambridge.org/dictionary/english/status) itself is an English word so it sometimes recognize Status as the English word `status` . Please review all the translations carefully after you make some changes.
    - Status DApp
      - Donwload: https://status.im/get/
-     - Languages: https://github.com/status-im/status-react/tree/develop/translations
+     - Languages: https://github.com/status-im/status-mobile/tree/develop/translations
    - Status.im website:
      - Homepage: https://status.im/
      - Repo: https://github.com/status-im/status.im
@@ -53,7 +53,7 @@ All languages have a different word order and cutural background. Therefore, we 
 - **Review**  
 All the translations will be reviewed via dev links
    - Status.im homepage : https://dev-lang.status.im/
-   - Status DApp : apk(Android) or ipa(iOS) [files for testing purposes](https://github.com/status-im/status-react/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+translation) 
+   - Status DApp : apk(Android) or ipa(iOS) [files for testing purposes](https://github.com/status-im/status-mobile/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aclosed+translation) 
    - Your translatoins will be reviewed by other ambassadors or other open source contributors. All the contributors can be a reviewer and decide which one goes live through the Lokalise's [translation upvoting](https://docs.lokalise.co/en/articles/1400631-translation-upvoting). To be a reviewer, 
       - email: translate@status.im 
       - [Status public chat](https://join.status.im/status-translate)
