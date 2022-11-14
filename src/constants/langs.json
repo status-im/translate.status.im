@@ -238,5 +238,13 @@
     "code": "hi",
     "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/hi/",
     "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/hi/"
+  },
+  {
+    "id": 31,
+    "lang_en": "Norwegian",
+    "lang": "norsk",
+    "code": "no",
+    "app": "https://lokalise.co/signup/562366815b97551836b8f1.55149963/no/",
+    "website": "https://lokalise.co/signup/831920985cf29a3c550a85.62099336/no/"
   }
 ]
